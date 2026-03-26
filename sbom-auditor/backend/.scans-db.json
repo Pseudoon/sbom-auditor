@@ -1,0 +1,5538 @@
+[
+  {
+    "id": "7b9fcd12-8059-4c48-927c-1b0e92b1167f",
+    "projectName": "My Project",
+    "timestamp": "2026-01-09T13:07:28.000Z",
+    "dependencies": [
+      {
+        "name": "express",
+        "version": "4.17.1",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "lodash",
+        "version": "4.17.19",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "moment",
+        "version": "2.24.0",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "nodemon",
+        "version": "1.19.0",
+        "type": "dev",
+        "vulnerabilities": 1
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "name": "body-parser",
+        "severity": "high",
+        "version": "<=1.20.2",
+        "via": "body-parser vulnerable to denial of service when url encoding is enabled, qs",
+        "fixAvailable": "yes",
+        "description": "body-parser vulnerable to denial of service when url encoding is enabled"
+      },
+      {
+        "name": "boxen",
+        "severity": "high",
+        "version": "1.2.0 - 3.2.0",
+        "via": "term-size",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "braces",
+        "severity": "high",
+        "version": "<3.0.3",
+        "via": "Uncontrolled resource consumption in braces",
+        "fixAvailable": "yes",
+        "description": "Uncontrolled resource consumption in braces"
+      },
+      {
+        "name": "chokidar",
+        "severity": "high",
+        "version": "1.3.0 - 2.1.8",
+        "via": "anymatch, braces, readdirp",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "cross-spawn",
+        "severity": "high",
+        "version": "<6.0.6",
+        "via": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn"
+      },
+      {
+        "name": "execa",
+        "severity": "high",
+        "version": "0.5.0 - 0.9.0",
+        "via": "cross-spawn",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "express",
+        "severity": "high",
+        "version": "<=4.21.0 || 5.0.0-alpha.1 - 5.0.0",
+        "via": "express vulnerable to XSS via response.redirect(), Express.js Open Redirect in malformed URLs, body-parser, cookie, path-to-regexp, qs, send, serve-static",
+        "fixAvailable": "yes",
+        "description": "express vulnerable to XSS via response.redirect()"
+      },
+      {
+        "name": "lodash",
+        "severity": "high",
+        "version": "<=4.17.20",
+        "via": "Command Injection in lodash, Regular Expression Denial of Service (ReDoS) in lodash",
+        "fixAvailable": "yes",
+        "description": "Command Injection in lodash"
+      },
+      {
+        "name": "micromatch",
+        "severity": "high",
+        "version": "<=4.0.7",
+        "via": "Regular Expression Denial of Service (ReDoS) in micromatch, braces",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in micromatch"
+      },
+      {
+        "name": "moment",
+        "severity": "high",
+        "version": "<=2.29.3",
+        "via": "Path Traversal: 'dir/../../filename' in moment.locale, Moment.js vulnerable to Inefficient Regular Expression Complexity",
+        "fixAvailable": "yes",
+        "description": "Path Traversal: 'dir/../../filename' in moment.locale"
+      },
+      {
+        "name": "nodemon",
+        "severity": "high",
+        "version": "1.3.5 - 2.0.16 || 2.0.18",
+        "via": "chokidar, update-notifier",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "path-to-regexp",
+        "severity": "high",
+        "version": "<=0.1.11",
+        "via": "path-to-regexp outputs backtracking regular expressions, path-to-regexp contains a ReDoS",
+        "fixAvailable": "yes",
+        "description": "path-to-regexp outputs backtracking regular expressions"
+      },
+      {
+        "name": "qs",
+        "severity": "high",
+        "version": "<=6.14.0",
+        "via": "qs vulnerable to Prototype Pollution, qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion",
+        "fixAvailable": "yes",
+        "description": "qs vulnerable to Prototype Pollution"
+      },
+      {
+        "name": "term-size",
+        "severity": "high",
+        "version": "1.0.0 - 1.2.0",
+        "via": "execa",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "update-notifier",
+        "severity": "high",
+        "version": "0.2.0 - 5.1.0",
+        "via": "boxen, latest-version",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "anymatch",
+        "severity": "moderate",
+        "version": "1.2.0 - 2.0.0",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "got",
+        "severity": "moderate",
+        "version": "<11.8.5",
+        "via": "Got allows a redirect to a UNIX socket",
+        "fixAvailable": "yes",
+        "description": "Got allows a redirect to a UNIX socket"
+      },
+      {
+        "name": "latest-version",
+        "severity": "moderate",
+        "version": "0.2.0 - 5.1.0",
+        "via": "package-json",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "package-json",
+        "severity": "moderate",
+        "version": "<=6.5.0",
+        "via": "got",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "readdirp",
+        "severity": "moderate",
+        "version": "2.2.0 - 2.2.1",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "cookie",
+        "severity": "low",
+        "version": "<0.7.0",
+        "via": "cookie accepts cookie name, path, and domain with out of bounds characters",
+        "fixAvailable": "yes",
+        "description": "cookie accepts cookie name, path, and domain with out of bounds characters"
+      },
+      {
+        "name": "send",
+        "severity": "low",
+        "version": "<0.19.0",
+        "via": "send vulnerable to template injection that can lead to XSS",
+        "fixAvailable": "yes",
+        "description": "send vulnerable to template injection that can lead to XSS"
+      },
+      {
+        "name": "serve-static",
+        "severity": "low",
+        "version": "<=1.16.0",
+        "via": "serve-static vulnerable to template injection that can lead to XSS, send",
+        "fixAvailable": "yes",
+        "description": "serve-static vulnerable to template injection that can lead to XSS"
+      }
+    ],
+    "summary": {
+      "totalDependencies": 4,
+      "totalVulnerabilities": 23,
+      "critical": 0,
+      "high": 15,
+      "moderate": 5,
+      "low": 3,
+      "riskScore": 8
+    },
+    "signatures": {
+      "verified": [
+        "express",
+        "lodash",
+        "moment",
+        "nodemon"
+      ],
+      "unverified": [],
+      "status": "partial",
+      "message": "Signature verification is in development. Use `npm audit signatures` for production verification.",
+      "totalPackages": 4,
+      "verifiedCount": 4,
+      "unverifiedCount": 0
+    }
+  },
+  {
+    "id": "fe9121c2-8956-47cf-937b-ff9f82184486",
+    "projectName": "My Project",
+    "timestamp": "2026-01-09T14:01:46.564Z",
+    "dependencies": [
+      {
+        "name": "express",
+        "version": "4.17.1",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "lodash",
+        "version": "4.17.19",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "moment",
+        "version": "2.24.0",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "nodemon",
+        "version": "1.19.0",
+        "type": "dev",
+        "vulnerabilities": 1
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "name": "body-parser",
+        "severity": "high",
+        "version": "<=1.20.2",
+        "via": "body-parser vulnerable to denial of service when url encoding is enabled, qs",
+        "fixAvailable": "yes",
+        "description": "body-parser vulnerable to denial of service when url encoding is enabled"
+      },
+      {
+        "name": "boxen",
+        "severity": "high",
+        "version": "1.2.0 - 3.2.0",
+        "via": "term-size",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "braces",
+        "severity": "high",
+        "version": "<3.0.3",
+        "via": "Uncontrolled resource consumption in braces",
+        "fixAvailable": "yes",
+        "description": "Uncontrolled resource consumption in braces"
+      },
+      {
+        "name": "chokidar",
+        "severity": "high",
+        "version": "1.3.0 - 2.1.8",
+        "via": "anymatch, braces, readdirp",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "cross-spawn",
+        "severity": "high",
+        "version": "<6.0.6",
+        "via": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn"
+      },
+      {
+        "name": "execa",
+        "severity": "high",
+        "version": "0.5.0 - 0.9.0",
+        "via": "cross-spawn",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "express",
+        "severity": "high",
+        "version": "<=4.21.0 || 5.0.0-alpha.1 - 5.0.0",
+        "via": "express vulnerable to XSS via response.redirect(), Express.js Open Redirect in malformed URLs, body-parser, cookie, path-to-regexp, qs, send, serve-static",
+        "fixAvailable": "yes",
+        "description": "express vulnerable to XSS via response.redirect()"
+      },
+      {
+        "name": "lodash",
+        "severity": "high",
+        "version": "<=4.17.20",
+        "via": "Command Injection in lodash, Regular Expression Denial of Service (ReDoS) in lodash",
+        "fixAvailable": "yes",
+        "description": "Command Injection in lodash"
+      },
+      {
+        "name": "micromatch",
+        "severity": "high",
+        "version": "<=4.0.7",
+        "via": "Regular Expression Denial of Service (ReDoS) in micromatch, braces",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in micromatch"
+      },
+      {
+        "name": "moment",
+        "severity": "high",
+        "version": "<=2.29.3",
+        "via": "Path Traversal: 'dir/../../filename' in moment.locale, Moment.js vulnerable to Inefficient Regular Expression Complexity",
+        "fixAvailable": "yes",
+        "description": "Path Traversal: 'dir/../../filename' in moment.locale"
+      },
+      {
+        "name": "nodemon",
+        "severity": "high",
+        "version": "1.3.5 - 2.0.16 || 2.0.18",
+        "via": "chokidar, update-notifier",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "path-to-regexp",
+        "severity": "high",
+        "version": "<=0.1.11",
+        "via": "path-to-regexp outputs backtracking regular expressions, path-to-regexp contains a ReDoS",
+        "fixAvailable": "yes",
+        "description": "path-to-regexp outputs backtracking regular expressions"
+      },
+      {
+        "name": "qs",
+        "severity": "high",
+        "version": "<=6.14.0",
+        "via": "qs vulnerable to Prototype Pollution, qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion",
+        "fixAvailable": "yes",
+        "description": "qs vulnerable to Prototype Pollution"
+      },
+      {
+        "name": "term-size",
+        "severity": "high",
+        "version": "1.0.0 - 1.2.0",
+        "via": "execa",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "update-notifier",
+        "severity": "high",
+        "version": "0.2.0 - 5.1.0",
+        "via": "boxen, latest-version",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "anymatch",
+        "severity": "moderate",
+        "version": "1.2.0 - 2.0.0",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "got",
+        "severity": "moderate",
+        "version": "<11.8.5",
+        "via": "Got allows a redirect to a UNIX socket",
+        "fixAvailable": "yes",
+        "description": "Got allows a redirect to a UNIX socket"
+      },
+      {
+        "name": "latest-version",
+        "severity": "moderate",
+        "version": "0.2.0 - 5.1.0",
+        "via": "package-json",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "package-json",
+        "severity": "moderate",
+        "version": "<=6.5.0",
+        "via": "got",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "readdirp",
+        "severity": "moderate",
+        "version": "2.2.0 - 2.2.1",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "cookie",
+        "severity": "low",
+        "version": "<0.7.0",
+        "via": "cookie accepts cookie name, path, and domain with out of bounds characters",
+        "fixAvailable": "yes",
+        "description": "cookie accepts cookie name, path, and domain with out of bounds characters"
+      },
+      {
+        "name": "send",
+        "severity": "low",
+        "version": "<0.19.0",
+        "via": "send vulnerable to template injection that can lead to XSS",
+        "fixAvailable": "yes",
+        "description": "send vulnerable to template injection that can lead to XSS"
+      },
+      {
+        "name": "serve-static",
+        "severity": "low",
+        "version": "<=1.16.0",
+        "via": "serve-static vulnerable to template injection that can lead to XSS, send",
+        "fixAvailable": "yes",
+        "description": "serve-static vulnerable to template injection that can lead to XSS"
+      }
+    ],
+    "summary": {
+      "totalDependencies": 4,
+      "totalVulnerabilities": 23,
+      "critical": 0,
+      "high": 15,
+      "moderate": 5,
+      "low": 3,
+      "riskScore": 8
+    },
+    "signatures": {
+      "verified": [
+        "express",
+        "lodash",
+        "moment",
+        "nodemon"
+      ],
+      "unverified": [],
+      "status": "partial",
+      "message": "Signature verification is in development. Use `npm audit signatures` for production verification.",
+      "totalPackages": 4,
+      "verifiedCount": 4,
+      "unverifiedCount": 0
+    }
+  },
+  {
+    "id": "e8b78539-8eba-4f49-879f-d9da292c0359",
+    "projectName": "My Project",
+    "timestamp": "2026-01-09T14:03:36.890Z",
+    "dependencies": [],
+    "vulnerabilities": [],
+    "summary": {
+      "totalDependencies": 0,
+      "totalVulnerabilities": 0,
+      "critical": 0,
+      "high": 0,
+      "moderate": 0,
+      "low": 0,
+      "riskScore": 0
+    },
+    "signatures": {
+      "verified": [],
+      "unverified": [],
+      "status": "partial",
+      "message": "Signature verification is in development. Use `npm audit signatures` for production verification.",
+      "totalPackages": 0,
+      "verifiedCount": 0,
+      "unverifiedCount": 0
+    }
+  },
+  {
+    "id": "3fc5183a-8541-47e3-8ef1-996b0884b061",
+    "projectName": "My Project",
+    "timestamp": "2026-01-09T14:04:03.213Z",
+    "dependencies": [
+      {
+        "name": "express",
+        "version": "4.17.1",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "lodash",
+        "version": "4.17.19",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "moment",
+        "version": "2.24.0",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "nodemon",
+        "version": "1.19.0",
+        "type": "dev",
+        "vulnerabilities": 1
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "name": "body-parser",
+        "severity": "high",
+        "version": "<=1.20.2",
+        "via": "body-parser vulnerable to denial of service when url encoding is enabled, qs",
+        "fixAvailable": "yes",
+        "description": "body-parser vulnerable to denial of service when url encoding is enabled"
+      },
+      {
+        "name": "boxen",
+        "severity": "high",
+        "version": "1.2.0 - 3.2.0",
+        "via": "term-size",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "braces",
+        "severity": "high",
+        "version": "<3.0.3",
+        "via": "Uncontrolled resource consumption in braces",
+        "fixAvailable": "yes",
+        "description": "Uncontrolled resource consumption in braces"
+      },
+      {
+        "name": "chokidar",
+        "severity": "high",
+        "version": "1.3.0 - 2.1.8",
+        "via": "anymatch, braces, readdirp",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "cross-spawn",
+        "severity": "high",
+        "version": "<6.0.6",
+        "via": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn"
+      },
+      {
+        "name": "execa",
+        "severity": "high",
+        "version": "0.5.0 - 0.9.0",
+        "via": "cross-spawn",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "express",
+        "severity": "high",
+        "version": "<=4.21.0 || 5.0.0-alpha.1 - 5.0.0",
+        "via": "express vulnerable to XSS via response.redirect(), Express.js Open Redirect in malformed URLs, body-parser, cookie, path-to-regexp, qs, send, serve-static",
+        "fixAvailable": "yes",
+        "description": "express vulnerable to XSS via response.redirect()"
+      },
+      {
+        "name": "lodash",
+        "severity": "high",
+        "version": "<=4.17.20",
+        "via": "Command Injection in lodash, Regular Expression Denial of Service (ReDoS) in lodash",
+        "fixAvailable": "yes",
+        "description": "Command Injection in lodash"
+      },
+      {
+        "name": "micromatch",
+        "severity": "high",
+        "version": "<=4.0.7",
+        "via": "Regular Expression Denial of Service (ReDoS) in micromatch, braces",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in micromatch"
+      },
+      {
+        "name": "moment",
+        "severity": "high",
+        "version": "<=2.29.3",
+        "via": "Path Traversal: 'dir/../../filename' in moment.locale, Moment.js vulnerable to Inefficient Regular Expression Complexity",
+        "fixAvailable": "yes",
+        "description": "Path Traversal: 'dir/../../filename' in moment.locale"
+      },
+      {
+        "name": "nodemon",
+        "severity": "high",
+        "version": "1.3.5 - 2.0.16 || 2.0.18",
+        "via": "chokidar, update-notifier",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "path-to-regexp",
+        "severity": "high",
+        "version": "<=0.1.11",
+        "via": "path-to-regexp outputs backtracking regular expressions, path-to-regexp contains a ReDoS",
+        "fixAvailable": "yes",
+        "description": "path-to-regexp outputs backtracking regular expressions"
+      },
+      {
+        "name": "qs",
+        "severity": "high",
+        "version": "<=6.14.0",
+        "via": "qs vulnerable to Prototype Pollution, qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion",
+        "fixAvailable": "yes",
+        "description": "qs vulnerable to Prototype Pollution"
+      },
+      {
+        "name": "term-size",
+        "severity": "high",
+        "version": "1.0.0 - 1.2.0",
+        "via": "execa",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "update-notifier",
+        "severity": "high",
+        "version": "0.2.0 - 5.1.0",
+        "via": "boxen, latest-version",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "anymatch",
+        "severity": "moderate",
+        "version": "1.2.0 - 2.0.0",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "got",
+        "severity": "moderate",
+        "version": "<11.8.5",
+        "via": "Got allows a redirect to a UNIX socket",
+        "fixAvailable": "yes",
+        "description": "Got allows a redirect to a UNIX socket"
+      },
+      {
+        "name": "latest-version",
+        "severity": "moderate",
+        "version": "0.2.0 - 5.1.0",
+        "via": "package-json",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "package-json",
+        "severity": "moderate",
+        "version": "<=6.5.0",
+        "via": "got",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "readdirp",
+        "severity": "moderate",
+        "version": "2.2.0 - 2.2.1",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See vulnerability details"
+      },
+      {
+        "name": "cookie",
+        "severity": "low",
+        "version": "<0.7.0",
+        "via": "cookie accepts cookie name, path, and domain with out of bounds characters",
+        "fixAvailable": "yes",
+        "description": "cookie accepts cookie name, path, and domain with out of bounds characters"
+      },
+      {
+        "name": "send",
+        "severity": "low",
+        "version": "<0.19.0",
+        "via": "send vulnerable to template injection that can lead to XSS",
+        "fixAvailable": "yes",
+        "description": "send vulnerable to template injection that can lead to XSS"
+      },
+      {
+        "name": "serve-static",
+        "severity": "low",
+        "version": "<=1.16.0",
+        "via": "serve-static vulnerable to template injection that can lead to XSS, send",
+        "fixAvailable": "yes",
+        "description": "serve-static vulnerable to template injection that can lead to XSS"
+      }
+    ],
+    "summary": {
+      "totalDependencies": 4,
+      "totalVulnerabilities": 23,
+      "critical": 0,
+      "high": 15,
+      "moderate": 5,
+      "low": 3,
+      "riskScore": 8
+    },
+    "signatures": {
+      "verified": [
+        "express",
+        "lodash",
+        "moment",
+        "nodemon"
+      ],
+      "unverified": [],
+      "status": "partial",
+      "message": "Signature verification is in development. Use `npm audit signatures` for production verification.",
+      "totalPackages": 4,
+      "verifiedCount": 4,
+      "unverifiedCount": 0
+    }
+  },
+  {
+    "id": "0345d29d-0630-403b-a368-27e3aa1b0ce4",
+    "projectName": "My Project",
+    "timestamp": "2026-01-09T17:13:02.749Z",
+    "dependencies": [
+      {
+        "name": "express",
+        "version": "4.17.1",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "lodash",
+        "version": "4.17.19",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "moment",
+        "version": "2.24.0",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "nodemon",
+        "version": "1.19.0",
+        "type": "dev",
+        "vulnerabilities": 1
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "name": "body-parser",
+        "severity": "high",
+        "version": "<=1.20.2",
+        "via": "body-parser vulnerable to denial of service when url encoding is enabled, qs",
+        "fixAvailable": "yes",
+        "description": "body-parser vulnerable to denial of service when url encoding is enabled"
+      },
+      {
+        "name": "boxen",
+        "severity": "high",
+        "version": "1.2.0 - 3.2.0",
+        "via": "term-size",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "braces",
+        "severity": "high",
+        "version": "<3.0.3",
+        "via": "Uncontrolled resource consumption in braces",
+        "fixAvailable": "yes",
+        "description": "Uncontrolled resource consumption in braces"
+      },
+      {
+        "name": "chokidar",
+        "severity": "high",
+        "version": "1.3.0 - 2.1.8",
+        "via": "anymatch, braces, readdirp",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "cross-spawn",
+        "severity": "high",
+        "version": "<6.0.6",
+        "via": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn"
+      },
+      {
+        "name": "execa",
+        "severity": "high",
+        "version": "0.5.0 - 0.9.0",
+        "via": "cross-spawn",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "express",
+        "severity": "high",
+        "version": "<=4.21.0 || 5.0.0-alpha.1 - 5.0.0",
+        "via": "express vulnerable to XSS via response.redirect(), Express.js Open Redirect in malformed URLs, body-parser, cookie, path-to-regexp, qs, send, serve-static",
+        "fixAvailable": "yes",
+        "description": "express vulnerable to XSS via response.redirect()"
+      },
+      {
+        "name": "lodash",
+        "severity": "high",
+        "version": "<=4.17.20",
+        "via": "Command Injection in lodash, Regular Expression Denial of Service (ReDoS) in lodash",
+        "fixAvailable": "yes",
+        "description": "Command Injection in lodash"
+      },
+      {
+        "name": "micromatch",
+        "severity": "high",
+        "version": "<=4.0.7",
+        "via": "Regular Expression Denial of Service (ReDoS) in micromatch, braces",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in micromatch"
+      },
+      {
+        "name": "moment",
+        "severity": "high",
+        "version": "<=2.29.3",
+        "via": "Path Traversal: 'dir/../../filename' in moment.locale, Moment.js vulnerable to Inefficient Regular Expression Complexity",
+        "fixAvailable": "yes",
+        "description": "Path Traversal: 'dir/../../filename' in moment.locale"
+      },
+      {
+        "name": "nodemon",
+        "severity": "high",
+        "version": "1.3.5 - 2.0.16 || 2.0.18",
+        "via": "chokidar, update-notifier",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "path-to-regexp",
+        "severity": "high",
+        "version": "<=0.1.11",
+        "via": "path-to-regexp outputs backtracking regular expressions, path-to-regexp contains a ReDoS",
+        "fixAvailable": "yes",
+        "description": "path-to-regexp outputs backtracking regular expressions"
+      },
+      {
+        "name": "qs",
+        "severity": "high",
+        "version": "<=6.14.0",
+        "via": "qs vulnerable to Prototype Pollution, qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion",
+        "fixAvailable": "yes",
+        "description": "qs vulnerable to Prototype Pollution"
+      },
+      {
+        "name": "term-size",
+        "severity": "high",
+        "version": "1.0.0 - 1.2.0",
+        "via": "execa",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "update-notifier",
+        "severity": "high",
+        "version": "0.2.0 - 5.1.0",
+        "via": "boxen, latest-version",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "anymatch",
+        "severity": "moderate",
+        "version": "1.2.0 - 2.0.0",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "got",
+        "severity": "moderate",
+        "version": "<11.8.5",
+        "via": "Got allows a redirect to a UNIX socket",
+        "fixAvailable": "yes",
+        "description": "Got allows a redirect to a UNIX socket"
+      },
+      {
+        "name": "latest-version",
+        "severity": "moderate",
+        "version": "0.2.0 - 5.1.0",
+        "via": "package-json",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "package-json",
+        "severity": "moderate",
+        "version": "<=6.5.0",
+        "via": "got",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "readdirp",
+        "severity": "moderate",
+        "version": "2.2.0 - 2.2.1",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "cookie",
+        "severity": "low",
+        "version": "<0.7.0",
+        "via": "cookie accepts cookie name, path, and domain with out of bounds characters",
+        "fixAvailable": "yes",
+        "description": "cookie accepts cookie name, path, and domain with out of bounds characters"
+      },
+      {
+        "name": "send",
+        "severity": "low",
+        "version": "<0.19.0",
+        "via": "send vulnerable to template injection that can lead to XSS",
+        "fixAvailable": "yes",
+        "description": "send vulnerable to template injection that can lead to XSS"
+      },
+      {
+        "name": "serve-static",
+        "severity": "low",
+        "version": "<=1.16.0",
+        "via": "serve-static vulnerable to template injection that can lead to XSS, send",
+        "fixAvailable": "yes",
+        "description": "serve-static vulnerable to template injection that can lead to XSS"
+      }
+    ],
+    "summary": {
+      "totalDependencies": 4,
+      "totalVulnerabilities": 23,
+      "critical": 0,
+      "high": 15,
+      "moderate": 5,
+      "low": 3,
+      "riskScore": 8
+    },
+    "signatures": {
+      "verified": [
+        "express",
+        "lodash",
+        "moment",
+        "nodemon"
+      ],
+      "unverified": [],
+      "status": "partial",
+      "message": "Sigstore verification (npm registry)",
+      "totalPackages": 4,
+      "verifiedCount": 4,
+      "unverifiedCount": 0
+    },
+    "supportedLanguages": [
+      {
+        "name": "Node.js",
+        "file": "package.json",
+        "tool": "npm audit"
+      }
+    ]
+  },
+  {
+    "id": "811e1e03-6ba2-4500-9605-659174c056f8",
+    "projectName": "My Project",
+    "timestamp": "2026-01-09T17:14:14.374Z",
+    "dependencies": [
+      {
+        "name": "express",
+        "version": "4.17.1",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "lodash",
+        "version": "4.17.19",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "moment",
+        "version": "2.24.0",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "nodemon",
+        "version": "1.19.0",
+        "type": "dev",
+        "vulnerabilities": 1
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "name": "body-parser",
+        "severity": "high",
+        "version": "<=1.20.2",
+        "via": "body-parser vulnerable to denial of service when url encoding is enabled, qs",
+        "fixAvailable": "yes",
+        "description": "body-parser vulnerable to denial of service when url encoding is enabled"
+      },
+      {
+        "name": "boxen",
+        "severity": "high",
+        "version": "1.2.0 - 3.2.0",
+        "via": "term-size",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "braces",
+        "severity": "high",
+        "version": "<3.0.3",
+        "via": "Uncontrolled resource consumption in braces",
+        "fixAvailable": "yes",
+        "description": "Uncontrolled resource consumption in braces"
+      },
+      {
+        "name": "chokidar",
+        "severity": "high",
+        "version": "1.3.0 - 2.1.8",
+        "via": "anymatch, braces, readdirp",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "cross-spawn",
+        "severity": "high",
+        "version": "<6.0.6",
+        "via": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn"
+      },
+      {
+        "name": "execa",
+        "severity": "high",
+        "version": "0.5.0 - 0.9.0",
+        "via": "cross-spawn",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "express",
+        "severity": "high",
+        "version": "<=4.21.0 || 5.0.0-alpha.1 - 5.0.0",
+        "via": "express vulnerable to XSS via response.redirect(), Express.js Open Redirect in malformed URLs, body-parser, cookie, path-to-regexp, qs, send, serve-static",
+        "fixAvailable": "yes",
+        "description": "express vulnerable to XSS via response.redirect()"
+      },
+      {
+        "name": "lodash",
+        "severity": "high",
+        "version": "<=4.17.20",
+        "via": "Command Injection in lodash, Regular Expression Denial of Service (ReDoS) in lodash",
+        "fixAvailable": "yes",
+        "description": "Command Injection in lodash"
+      },
+      {
+        "name": "micromatch",
+        "severity": "high",
+        "version": "<=4.0.7",
+        "via": "Regular Expression Denial of Service (ReDoS) in micromatch, braces",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in micromatch"
+      },
+      {
+        "name": "moment",
+        "severity": "high",
+        "version": "<=2.29.3",
+        "via": "Path Traversal: 'dir/../../filename' in moment.locale, Moment.js vulnerable to Inefficient Regular Expression Complexity",
+        "fixAvailable": "yes",
+        "description": "Path Traversal: 'dir/../../filename' in moment.locale"
+      },
+      {
+        "name": "nodemon",
+        "severity": "high",
+        "version": "1.3.5 - 2.0.16 || 2.0.18",
+        "via": "chokidar, update-notifier",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "path-to-regexp",
+        "severity": "high",
+        "version": "<=0.1.11",
+        "via": "path-to-regexp outputs backtracking regular expressions, path-to-regexp contains a ReDoS",
+        "fixAvailable": "yes",
+        "description": "path-to-regexp outputs backtracking regular expressions"
+      },
+      {
+        "name": "qs",
+        "severity": "high",
+        "version": "<=6.14.0",
+        "via": "qs vulnerable to Prototype Pollution, qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion",
+        "fixAvailable": "yes",
+        "description": "qs vulnerable to Prototype Pollution"
+      },
+      {
+        "name": "term-size",
+        "severity": "high",
+        "version": "1.0.0 - 1.2.0",
+        "via": "execa",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "update-notifier",
+        "severity": "high",
+        "version": "0.2.0 - 5.1.0",
+        "via": "boxen, latest-version",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "anymatch",
+        "severity": "moderate",
+        "version": "1.2.0 - 2.0.0",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "got",
+        "severity": "moderate",
+        "version": "<11.8.5",
+        "via": "Got allows a redirect to a UNIX socket",
+        "fixAvailable": "yes",
+        "description": "Got allows a redirect to a UNIX socket"
+      },
+      {
+        "name": "latest-version",
+        "severity": "moderate",
+        "version": "0.2.0 - 5.1.0",
+        "via": "package-json",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "package-json",
+        "severity": "moderate",
+        "version": "<=6.5.0",
+        "via": "got",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "readdirp",
+        "severity": "moderate",
+        "version": "2.2.0 - 2.2.1",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "cookie",
+        "severity": "low",
+        "version": "<0.7.0",
+        "via": "cookie accepts cookie name, path, and domain with out of bounds characters",
+        "fixAvailable": "yes",
+        "description": "cookie accepts cookie name, path, and domain with out of bounds characters"
+      },
+      {
+        "name": "send",
+        "severity": "low",
+        "version": "<0.19.0",
+        "via": "send vulnerable to template injection that can lead to XSS",
+        "fixAvailable": "yes",
+        "description": "send vulnerable to template injection that can lead to XSS"
+      },
+      {
+        "name": "serve-static",
+        "severity": "low",
+        "version": "<=1.16.0",
+        "via": "serve-static vulnerable to template injection that can lead to XSS, send",
+        "fixAvailable": "yes",
+        "description": "serve-static vulnerable to template injection that can lead to XSS"
+      }
+    ],
+    "summary": {
+      "totalDependencies": 4,
+      "totalVulnerabilities": 23,
+      "critical": 0,
+      "high": 15,
+      "moderate": 5,
+      "low": 3,
+      "riskScore": 8
+    },
+    "signatures": {
+      "verified": [
+        "express",
+        "lodash",
+        "moment",
+        "nodemon"
+      ],
+      "unverified": [],
+      "status": "partial",
+      "message": "Sigstore verification (npm registry)",
+      "totalPackages": 4,
+      "verifiedCount": 4,
+      "unverifiedCount": 0
+    },
+    "supportedLanguages": [
+      {
+        "name": "Node.js",
+        "file": "package.json",
+        "tool": "npm audit"
+      }
+    ]
+  },
+  {
+    "id": "f7a844a8-7d42-4fc2-847a-41a006620aa7",
+    "projectName": "My Project",
+    "timestamp": "2026-01-09T17:24:40.496Z",
+    "dependencies": [
+      {
+        "name": "express",
+        "version": "4.17.1",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "lodash",
+        "version": "4.17.19",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "moment",
+        "version": "2.24.0",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "nodemon",
+        "version": "1.19.0",
+        "type": "dev",
+        "vulnerabilities": 1
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "name": "body-parser",
+        "severity": "high",
+        "version": "<=1.20.2",
+        "via": "body-parser vulnerable to denial of service when url encoding is enabled, qs",
+        "fixAvailable": "yes",
+        "description": "body-parser vulnerable to denial of service when url encoding is enabled"
+      },
+      {
+        "name": "boxen",
+        "severity": "high",
+        "version": "1.2.0 - 3.2.0",
+        "via": "term-size",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "braces",
+        "severity": "high",
+        "version": "<3.0.3",
+        "via": "Uncontrolled resource consumption in braces",
+        "fixAvailable": "yes",
+        "description": "Uncontrolled resource consumption in braces"
+      },
+      {
+        "name": "chokidar",
+        "severity": "high",
+        "version": "1.3.0 - 2.1.8",
+        "via": "anymatch, braces, readdirp",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "cross-spawn",
+        "severity": "high",
+        "version": "<6.0.6",
+        "via": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn"
+      },
+      {
+        "name": "execa",
+        "severity": "high",
+        "version": "0.5.0 - 0.9.0",
+        "via": "cross-spawn",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "express",
+        "severity": "high",
+        "version": "<=4.21.0 || 5.0.0-alpha.1 - 5.0.0",
+        "via": "express vulnerable to XSS via response.redirect(), Express.js Open Redirect in malformed URLs, body-parser, cookie, path-to-regexp, qs, send, serve-static",
+        "fixAvailable": "yes",
+        "description": "express vulnerable to XSS via response.redirect()"
+      },
+      {
+        "name": "lodash",
+        "severity": "high",
+        "version": "<=4.17.20",
+        "via": "Command Injection in lodash, Regular Expression Denial of Service (ReDoS) in lodash",
+        "fixAvailable": "yes",
+        "description": "Command Injection in lodash"
+      },
+      {
+        "name": "micromatch",
+        "severity": "high",
+        "version": "<=4.0.7",
+        "via": "Regular Expression Denial of Service (ReDoS) in micromatch, braces",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in micromatch"
+      },
+      {
+        "name": "moment",
+        "severity": "high",
+        "version": "<=2.29.3",
+        "via": "Path Traversal: 'dir/../../filename' in moment.locale, Moment.js vulnerable to Inefficient Regular Expression Complexity",
+        "fixAvailable": "yes",
+        "description": "Path Traversal: 'dir/../../filename' in moment.locale"
+      },
+      {
+        "name": "nodemon",
+        "severity": "high",
+        "version": "1.3.5 - 2.0.16 || 2.0.18",
+        "via": "chokidar, update-notifier",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "path-to-regexp",
+        "severity": "high",
+        "version": "<=0.1.11",
+        "via": "path-to-regexp outputs backtracking regular expressions, path-to-regexp contains a ReDoS",
+        "fixAvailable": "yes",
+        "description": "path-to-regexp outputs backtracking regular expressions"
+      },
+      {
+        "name": "qs",
+        "severity": "high",
+        "version": "<=6.14.0",
+        "via": "qs vulnerable to Prototype Pollution, qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion",
+        "fixAvailable": "yes",
+        "description": "qs vulnerable to Prototype Pollution"
+      },
+      {
+        "name": "term-size",
+        "severity": "high",
+        "version": "1.0.0 - 1.2.0",
+        "via": "execa",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "update-notifier",
+        "severity": "high",
+        "version": "0.2.0 - 5.1.0",
+        "via": "boxen, latest-version",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "anymatch",
+        "severity": "moderate",
+        "version": "1.2.0 - 2.0.0",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "got",
+        "severity": "moderate",
+        "version": "<11.8.5",
+        "via": "Got allows a redirect to a UNIX socket",
+        "fixAvailable": "yes",
+        "description": "Got allows a redirect to a UNIX socket"
+      },
+      {
+        "name": "latest-version",
+        "severity": "moderate",
+        "version": "0.2.0 - 5.1.0",
+        "via": "package-json",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "package-json",
+        "severity": "moderate",
+        "version": "<=6.5.0",
+        "via": "got",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "readdirp",
+        "severity": "moderate",
+        "version": "2.2.0 - 2.2.1",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "cookie",
+        "severity": "low",
+        "version": "<0.7.0",
+        "via": "cookie accepts cookie name, path, and domain with out of bounds characters",
+        "fixAvailable": "yes",
+        "description": "cookie accepts cookie name, path, and domain with out of bounds characters"
+      },
+      {
+        "name": "send",
+        "severity": "low",
+        "version": "<0.19.0",
+        "via": "send vulnerable to template injection that can lead to XSS",
+        "fixAvailable": "yes",
+        "description": "send vulnerable to template injection that can lead to XSS"
+      },
+      {
+        "name": "serve-static",
+        "severity": "low",
+        "version": "<=1.16.0",
+        "via": "serve-static vulnerable to template injection that can lead to XSS, send",
+        "fixAvailable": "yes",
+        "description": "serve-static vulnerable to template injection that can lead to XSS"
+      }
+    ],
+    "summary": {
+      "totalDependencies": 4,
+      "totalVulnerabilities": 23,
+      "critical": 0,
+      "high": 15,
+      "moderate": 5,
+      "low": 3,
+      "riskScore": 8
+    },
+    "signatures": {
+      "verified": [
+        "express",
+        "lodash",
+        "moment",
+        "nodemon"
+      ],
+      "unverified": [],
+      "status": "partial",
+      "message": "Sigstore verification (npm registry)",
+      "totalPackages": 4,
+      "verifiedCount": 4,
+      "unverifiedCount": 0
+    },
+    "supportedLanguages": [
+      {
+        "name": "Node.js",
+        "file": "package.json",
+        "tool": "npm audit"
+      }
+    ]
+  },
+  {
+    "id": "b4c04791-c913-45a9-9ce9-3f08e3a5d35a",
+    "projectName": "My Project",
+    "timestamp": "2026-01-09T17:29:46.938Z",
+    "dependencies": [
+      {
+        "name": "express",
+        "version": "4.17.1",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "lodash",
+        "version": "4.17.19",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "moment",
+        "version": "2.24.0",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "nodemon",
+        "version": "1.19.0",
+        "type": "dev",
+        "vulnerabilities": 1
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "name": "body-parser",
+        "severity": "high",
+        "version": "<=1.20.2",
+        "via": "body-parser vulnerable to denial of service when url encoding is enabled, qs",
+        "fixAvailable": "yes",
+        "description": "body-parser vulnerable to denial of service when url encoding is enabled"
+      },
+      {
+        "name": "boxen",
+        "severity": "high",
+        "version": "1.2.0 - 3.2.0",
+        "via": "term-size",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "braces",
+        "severity": "high",
+        "version": "<3.0.3",
+        "via": "Uncontrolled resource consumption in braces",
+        "fixAvailable": "yes",
+        "description": "Uncontrolled resource consumption in braces"
+      },
+      {
+        "name": "chokidar",
+        "severity": "high",
+        "version": "1.3.0 - 2.1.8",
+        "via": "anymatch, braces, readdirp",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "cross-spawn",
+        "severity": "high",
+        "version": "<6.0.6",
+        "via": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn"
+      },
+      {
+        "name": "execa",
+        "severity": "high",
+        "version": "0.5.0 - 0.9.0",
+        "via": "cross-spawn",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "express",
+        "severity": "high",
+        "version": "<=4.21.0 || 5.0.0-alpha.1 - 5.0.0",
+        "via": "express vulnerable to XSS via response.redirect(), Express.js Open Redirect in malformed URLs, body-parser, cookie, path-to-regexp, qs, send, serve-static",
+        "fixAvailable": "yes",
+        "description": "express vulnerable to XSS via response.redirect()"
+      },
+      {
+        "name": "lodash",
+        "severity": "high",
+        "version": "<=4.17.20",
+        "via": "Command Injection in lodash, Regular Expression Denial of Service (ReDoS) in lodash",
+        "fixAvailable": "yes",
+        "description": "Command Injection in lodash"
+      },
+      {
+        "name": "micromatch",
+        "severity": "high",
+        "version": "<=4.0.7",
+        "via": "Regular Expression Denial of Service (ReDoS) in micromatch, braces",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in micromatch"
+      },
+      {
+        "name": "moment",
+        "severity": "high",
+        "version": "<=2.29.3",
+        "via": "Path Traversal: 'dir/../../filename' in moment.locale, Moment.js vulnerable to Inefficient Regular Expression Complexity",
+        "fixAvailable": "yes",
+        "description": "Path Traversal: 'dir/../../filename' in moment.locale"
+      },
+      {
+        "name": "nodemon",
+        "severity": "high",
+        "version": "1.3.5 - 2.0.16 || 2.0.18",
+        "via": "chokidar, update-notifier",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "path-to-regexp",
+        "severity": "high",
+        "version": "<=0.1.11",
+        "via": "path-to-regexp outputs backtracking regular expressions, path-to-regexp contains a ReDoS",
+        "fixAvailable": "yes",
+        "description": "path-to-regexp outputs backtracking regular expressions"
+      },
+      {
+        "name": "qs",
+        "severity": "high",
+        "version": "<=6.14.0",
+        "via": "qs vulnerable to Prototype Pollution, qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion",
+        "fixAvailable": "yes",
+        "description": "qs vulnerable to Prototype Pollution"
+      },
+      {
+        "name": "term-size",
+        "severity": "high",
+        "version": "1.0.0 - 1.2.0",
+        "via": "execa",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "update-notifier",
+        "severity": "high",
+        "version": "0.2.0 - 5.1.0",
+        "via": "boxen, latest-version",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "anymatch",
+        "severity": "moderate",
+        "version": "1.2.0 - 2.0.0",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "got",
+        "severity": "moderate",
+        "version": "<11.8.5",
+        "via": "Got allows a redirect to a UNIX socket",
+        "fixAvailable": "yes",
+        "description": "Got allows a redirect to a UNIX socket"
+      },
+      {
+        "name": "latest-version",
+        "severity": "moderate",
+        "version": "0.2.0 - 5.1.0",
+        "via": "package-json",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "package-json",
+        "severity": "moderate",
+        "version": "<=6.5.0",
+        "via": "got",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "readdirp",
+        "severity": "moderate",
+        "version": "2.2.0 - 2.2.1",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "cookie",
+        "severity": "low",
+        "version": "<0.7.0",
+        "via": "cookie accepts cookie name, path, and domain with out of bounds characters",
+        "fixAvailable": "yes",
+        "description": "cookie accepts cookie name, path, and domain with out of bounds characters"
+      },
+      {
+        "name": "send",
+        "severity": "low",
+        "version": "<0.19.0",
+        "via": "send vulnerable to template injection that can lead to XSS",
+        "fixAvailable": "yes",
+        "description": "send vulnerable to template injection that can lead to XSS"
+      },
+      {
+        "name": "serve-static",
+        "severity": "low",
+        "version": "<=1.16.0",
+        "via": "serve-static vulnerable to template injection that can lead to XSS, send",
+        "fixAvailable": "yes",
+        "description": "serve-static vulnerable to template injection that can lead to XSS"
+      }
+    ],
+    "summary": {
+      "totalDependencies": 4,
+      "totalVulnerabilities": 23,
+      "critical": 0,
+      "high": 15,
+      "moderate": 5,
+      "low": 3,
+      "riskScore": 8
+    },
+    "signatures": {
+      "verified": [
+        "express",
+        "lodash",
+        "moment",
+        "nodemon"
+      ],
+      "unverified": [],
+      "status": "full",
+      "message": "✓ npm audit signatures verified",
+      "totalPackages": 4,
+      "verifiedCount": 4,
+      "unverifiedCount": 0
+    },
+    "supportedLanguages": [
+      {
+        "name": "Node.js",
+        "file": "package.json",
+        "tool": "npm audit"
+      }
+    ]
+  },
+  {
+    "id": "e8a0b9e2-0eb9-4e97-9ca3-fab933745181",
+    "projectName": "My Project",
+    "timestamp": "2026-01-09T17:30:56.429Z",
+    "dependencies": [
+      {
+        "name": "express",
+        "version": "4.17.1",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "lodash",
+        "version": "4.17.19",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "moment",
+        "version": "2.24.0",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "nodemon",
+        "version": "1.19.0",
+        "type": "dev",
+        "vulnerabilities": 1
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "name": "body-parser",
+        "severity": "high",
+        "version": "<=1.20.2",
+        "via": "body-parser vulnerable to denial of service when url encoding is enabled, qs",
+        "fixAvailable": "yes",
+        "description": "body-parser vulnerable to denial of service when url encoding is enabled"
+      },
+      {
+        "name": "boxen",
+        "severity": "high",
+        "version": "1.2.0 - 3.2.0",
+        "via": "term-size",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "braces",
+        "severity": "high",
+        "version": "<3.0.3",
+        "via": "Uncontrolled resource consumption in braces",
+        "fixAvailable": "yes",
+        "description": "Uncontrolled resource consumption in braces"
+      },
+      {
+        "name": "chokidar",
+        "severity": "high",
+        "version": "1.3.0 - 2.1.8",
+        "via": "anymatch, braces, readdirp",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "cross-spawn",
+        "severity": "high",
+        "version": "<6.0.6",
+        "via": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn"
+      },
+      {
+        "name": "execa",
+        "severity": "high",
+        "version": "0.5.0 - 0.9.0",
+        "via": "cross-spawn",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "express",
+        "severity": "high",
+        "version": "<=4.21.0 || 5.0.0-alpha.1 - 5.0.0",
+        "via": "express vulnerable to XSS via response.redirect(), Express.js Open Redirect in malformed URLs, body-parser, cookie, path-to-regexp, qs, send, serve-static",
+        "fixAvailable": "yes",
+        "description": "express vulnerable to XSS via response.redirect()"
+      },
+      {
+        "name": "lodash",
+        "severity": "high",
+        "version": "<=4.17.20",
+        "via": "Command Injection in lodash, Regular Expression Denial of Service (ReDoS) in lodash",
+        "fixAvailable": "yes",
+        "description": "Command Injection in lodash"
+      },
+      {
+        "name": "micromatch",
+        "severity": "high",
+        "version": "<=4.0.7",
+        "via": "Regular Expression Denial of Service (ReDoS) in micromatch, braces",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in micromatch"
+      },
+      {
+        "name": "moment",
+        "severity": "high",
+        "version": "<=2.29.3",
+        "via": "Path Traversal: 'dir/../../filename' in moment.locale, Moment.js vulnerable to Inefficient Regular Expression Complexity",
+        "fixAvailable": "yes",
+        "description": "Path Traversal: 'dir/../../filename' in moment.locale"
+      },
+      {
+        "name": "nodemon",
+        "severity": "high",
+        "version": "1.3.5 - 2.0.16 || 2.0.18",
+        "via": "chokidar, update-notifier",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "path-to-regexp",
+        "severity": "high",
+        "version": "<=0.1.11",
+        "via": "path-to-regexp outputs backtracking regular expressions, path-to-regexp contains a ReDoS",
+        "fixAvailable": "yes",
+        "description": "path-to-regexp outputs backtracking regular expressions"
+      },
+      {
+        "name": "qs",
+        "severity": "high",
+        "version": "<=6.14.0",
+        "via": "qs vulnerable to Prototype Pollution, qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion",
+        "fixAvailable": "yes",
+        "description": "qs vulnerable to Prototype Pollution"
+      },
+      {
+        "name": "term-size",
+        "severity": "high",
+        "version": "1.0.0 - 1.2.0",
+        "via": "execa",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "update-notifier",
+        "severity": "high",
+        "version": "0.2.0 - 5.1.0",
+        "via": "boxen, latest-version",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "anymatch",
+        "severity": "moderate",
+        "version": "1.2.0 - 2.0.0",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "got",
+        "severity": "moderate",
+        "version": "<11.8.5",
+        "via": "Got allows a redirect to a UNIX socket",
+        "fixAvailable": "yes",
+        "description": "Got allows a redirect to a UNIX socket"
+      },
+      {
+        "name": "latest-version",
+        "severity": "moderate",
+        "version": "0.2.0 - 5.1.0",
+        "via": "package-json",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "package-json",
+        "severity": "moderate",
+        "version": "<=6.5.0",
+        "via": "got",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "readdirp",
+        "severity": "moderate",
+        "version": "2.2.0 - 2.2.1",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "cookie",
+        "severity": "low",
+        "version": "<0.7.0",
+        "via": "cookie accepts cookie name, path, and domain with out of bounds characters",
+        "fixAvailable": "yes",
+        "description": "cookie accepts cookie name, path, and domain with out of bounds characters"
+      },
+      {
+        "name": "send",
+        "severity": "low",
+        "version": "<0.19.0",
+        "via": "send vulnerable to template injection that can lead to XSS",
+        "fixAvailable": "yes",
+        "description": "send vulnerable to template injection that can lead to XSS"
+      },
+      {
+        "name": "serve-static",
+        "severity": "low",
+        "version": "<=1.16.0",
+        "via": "serve-static vulnerable to template injection that can lead to XSS, send",
+        "fixAvailable": "yes",
+        "description": "serve-static vulnerable to template injection that can lead to XSS"
+      }
+    ],
+    "summary": {
+      "totalDependencies": 4,
+      "totalVulnerabilities": 23,
+      "critical": 0,
+      "high": 15,
+      "moderate": 5,
+      "low": 3,
+      "riskScore": 8
+    },
+    "signatures": {
+      "verified": [
+        "express",
+        "lodash",
+        "moment",
+        "nodemon"
+      ],
+      "unverified": [],
+      "status": "partial",
+      "message": "Sigstore verification (npm registry)",
+      "totalPackages": 4,
+      "verifiedCount": 4,
+      "unverifiedCount": 0
+    },
+    "supportedLanguages": [
+      {
+        "name": "Node.js",
+        "file": "package.json",
+        "tool": "npm audit"
+      }
+    ]
+  },
+  {
+    "id": "e661157b-9143-47cb-8a77-7a01e23772fa",
+    "projectName": "My Project",
+    "timestamp": "2026-01-09T17:34:19.971Z",
+    "dependencies": [
+      {
+        "name": "express",
+        "version": "4.17.1",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "lodash",
+        "version": "4.17.19",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "moment",
+        "version": "2.24.0",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "nodemon",
+        "version": "1.19.0",
+        "type": "dev",
+        "vulnerabilities": 1
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "name": "body-parser",
+        "severity": "high",
+        "version": "<=1.20.2",
+        "via": "body-parser vulnerable to denial of service when url encoding is enabled, qs",
+        "fixAvailable": "yes",
+        "description": "body-parser vulnerable to denial of service when url encoding is enabled"
+      },
+      {
+        "name": "boxen",
+        "severity": "high",
+        "version": "1.2.0 - 3.2.0",
+        "via": "term-size",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "braces",
+        "severity": "high",
+        "version": "<3.0.3",
+        "via": "Uncontrolled resource consumption in braces",
+        "fixAvailable": "yes",
+        "description": "Uncontrolled resource consumption in braces"
+      },
+      {
+        "name": "chokidar",
+        "severity": "high",
+        "version": "1.3.0 - 2.1.8",
+        "via": "anymatch, braces, readdirp",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "cross-spawn",
+        "severity": "high",
+        "version": "<6.0.6",
+        "via": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn"
+      },
+      {
+        "name": "execa",
+        "severity": "high",
+        "version": "0.5.0 - 0.9.0",
+        "via": "cross-spawn",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "express",
+        "severity": "high",
+        "version": "<=4.21.0 || 5.0.0-alpha.1 - 5.0.0",
+        "via": "express vulnerable to XSS via response.redirect(), Express.js Open Redirect in malformed URLs, body-parser, cookie, path-to-regexp, qs, send, serve-static",
+        "fixAvailable": "yes",
+        "description": "express vulnerable to XSS via response.redirect()"
+      },
+      {
+        "name": "lodash",
+        "severity": "high",
+        "version": "<=4.17.20",
+        "via": "Command Injection in lodash, Regular Expression Denial of Service (ReDoS) in lodash",
+        "fixAvailable": "yes",
+        "description": "Command Injection in lodash"
+      },
+      {
+        "name": "micromatch",
+        "severity": "high",
+        "version": "<=4.0.7",
+        "via": "Regular Expression Denial of Service (ReDoS) in micromatch, braces",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in micromatch"
+      },
+      {
+        "name": "moment",
+        "severity": "high",
+        "version": "<=2.29.3",
+        "via": "Path Traversal: 'dir/../../filename' in moment.locale, Moment.js vulnerable to Inefficient Regular Expression Complexity",
+        "fixAvailable": "yes",
+        "description": "Path Traversal: 'dir/../../filename' in moment.locale"
+      },
+      {
+        "name": "nodemon",
+        "severity": "high",
+        "version": "1.3.5 - 2.0.16 || 2.0.18",
+        "via": "chokidar, update-notifier",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "path-to-regexp",
+        "severity": "high",
+        "version": "<=0.1.11",
+        "via": "path-to-regexp outputs backtracking regular expressions, path-to-regexp contains a ReDoS",
+        "fixAvailable": "yes",
+        "description": "path-to-regexp outputs backtracking regular expressions"
+      },
+      {
+        "name": "qs",
+        "severity": "high",
+        "version": "<=6.14.0",
+        "via": "qs vulnerable to Prototype Pollution, qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion",
+        "fixAvailable": "yes",
+        "description": "qs vulnerable to Prototype Pollution"
+      },
+      {
+        "name": "term-size",
+        "severity": "high",
+        "version": "1.0.0 - 1.2.0",
+        "via": "execa",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "update-notifier",
+        "severity": "high",
+        "version": "0.2.0 - 5.1.0",
+        "via": "boxen, latest-version",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "anymatch",
+        "severity": "moderate",
+        "version": "1.2.0 - 2.0.0",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "got",
+        "severity": "moderate",
+        "version": "<11.8.5",
+        "via": "Got allows a redirect to a UNIX socket",
+        "fixAvailable": "yes",
+        "description": "Got allows a redirect to a UNIX socket"
+      },
+      {
+        "name": "latest-version",
+        "severity": "moderate",
+        "version": "0.2.0 - 5.1.0",
+        "via": "package-json",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "package-json",
+        "severity": "moderate",
+        "version": "<=6.5.0",
+        "via": "got",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "readdirp",
+        "severity": "moderate",
+        "version": "2.2.0 - 2.2.1",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "cookie",
+        "severity": "low",
+        "version": "<0.7.0",
+        "via": "cookie accepts cookie name, path, and domain with out of bounds characters",
+        "fixAvailable": "yes",
+        "description": "cookie accepts cookie name, path, and domain with out of bounds characters"
+      },
+      {
+        "name": "send",
+        "severity": "low",
+        "version": "<0.19.0",
+        "via": "send vulnerable to template injection that can lead to XSS",
+        "fixAvailable": "yes",
+        "description": "send vulnerable to template injection that can lead to XSS"
+      },
+      {
+        "name": "serve-static",
+        "severity": "low",
+        "version": "<=1.16.0",
+        "via": "serve-static vulnerable to template injection that can lead to XSS, send",
+        "fixAvailable": "yes",
+        "description": "serve-static vulnerable to template injection that can lead to XSS"
+      }
+    ],
+    "summary": {
+      "totalDependencies": 4,
+      "totalVulnerabilities": 23,
+      "critical": 0,
+      "high": 15,
+      "moderate": 5,
+      "low": 3,
+      "riskScore": 8
+    },
+    "signatures": {
+      "verified": [
+        "express",
+        "lodash",
+        "moment",
+        "nodemon"
+      ],
+      "unverified": [],
+      "status": "partial",
+      "message": "Sigstore verification (npm registry)",
+      "totalPackages": 4,
+      "verifiedCount": 4,
+      "unverifiedCount": 0
+    },
+    "supportedLanguages": [
+      {
+        "name": "Node.js",
+        "file": "package.json",
+        "tool": "npm audit"
+      }
+    ]
+  },
+  {
+    "id": "a9964928-c8db-4daf-a301-bc40c8dd5725",
+    "projectName": "My Project",
+    "timestamp": "2026-01-09T17:34:55.072Z",
+    "dependencies": [
+      {
+        "name": "express",
+        "version": "4.17.1",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "lodash",
+        "version": "4.17.19",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "moment",
+        "version": "2.24.0",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "nodemon",
+        "version": "1.19.0",
+        "type": "dev",
+        "vulnerabilities": 1
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "name": "body-parser",
+        "severity": "high",
+        "version": "<=1.20.2",
+        "via": "body-parser vulnerable to denial of service when url encoding is enabled, qs",
+        "fixAvailable": "yes",
+        "description": "body-parser vulnerable to denial of service when url encoding is enabled"
+      },
+      {
+        "name": "boxen",
+        "severity": "high",
+        "version": "1.2.0 - 3.2.0",
+        "via": "term-size",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "braces",
+        "severity": "high",
+        "version": "<3.0.3",
+        "via": "Uncontrolled resource consumption in braces",
+        "fixAvailable": "yes",
+        "description": "Uncontrolled resource consumption in braces"
+      },
+      {
+        "name": "chokidar",
+        "severity": "high",
+        "version": "1.3.0 - 2.1.8",
+        "via": "anymatch, braces, readdirp",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "cross-spawn",
+        "severity": "high",
+        "version": "<6.0.6",
+        "via": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn"
+      },
+      {
+        "name": "execa",
+        "severity": "high",
+        "version": "0.5.0 - 0.9.0",
+        "via": "cross-spawn",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "express",
+        "severity": "high",
+        "version": "<=4.21.0 || 5.0.0-alpha.1 - 5.0.0",
+        "via": "express vulnerable to XSS via response.redirect(), Express.js Open Redirect in malformed URLs, body-parser, cookie, path-to-regexp, qs, send, serve-static",
+        "fixAvailable": "yes",
+        "description": "express vulnerable to XSS via response.redirect()"
+      },
+      {
+        "name": "lodash",
+        "severity": "high",
+        "version": "<=4.17.20",
+        "via": "Command Injection in lodash, Regular Expression Denial of Service (ReDoS) in lodash",
+        "fixAvailable": "yes",
+        "description": "Command Injection in lodash"
+      },
+      {
+        "name": "micromatch",
+        "severity": "high",
+        "version": "<=4.0.7",
+        "via": "Regular Expression Denial of Service (ReDoS) in micromatch, braces",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in micromatch"
+      },
+      {
+        "name": "moment",
+        "severity": "high",
+        "version": "<=2.29.3",
+        "via": "Path Traversal: 'dir/../../filename' in moment.locale, Moment.js vulnerable to Inefficient Regular Expression Complexity",
+        "fixAvailable": "yes",
+        "description": "Path Traversal: 'dir/../../filename' in moment.locale"
+      },
+      {
+        "name": "nodemon",
+        "severity": "high",
+        "version": "1.3.5 - 2.0.16 || 2.0.18",
+        "via": "chokidar, update-notifier",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "path-to-regexp",
+        "severity": "high",
+        "version": "<=0.1.11",
+        "via": "path-to-regexp outputs backtracking regular expressions, path-to-regexp contains a ReDoS",
+        "fixAvailable": "yes",
+        "description": "path-to-regexp outputs backtracking regular expressions"
+      },
+      {
+        "name": "qs",
+        "severity": "high",
+        "version": "<=6.14.0",
+        "via": "qs vulnerable to Prototype Pollution, qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion",
+        "fixAvailable": "yes",
+        "description": "qs vulnerable to Prototype Pollution"
+      },
+      {
+        "name": "term-size",
+        "severity": "high",
+        "version": "1.0.0 - 1.2.0",
+        "via": "execa",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "update-notifier",
+        "severity": "high",
+        "version": "0.2.0 - 5.1.0",
+        "via": "boxen, latest-version",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "anymatch",
+        "severity": "moderate",
+        "version": "1.2.0 - 2.0.0",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "got",
+        "severity": "moderate",
+        "version": "<11.8.5",
+        "via": "Got allows a redirect to a UNIX socket",
+        "fixAvailable": "yes",
+        "description": "Got allows a redirect to a UNIX socket"
+      },
+      {
+        "name": "latest-version",
+        "severity": "moderate",
+        "version": "0.2.0 - 5.1.0",
+        "via": "package-json",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "package-json",
+        "severity": "moderate",
+        "version": "<=6.5.0",
+        "via": "got",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "readdirp",
+        "severity": "moderate",
+        "version": "2.2.0 - 2.2.1",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "cookie",
+        "severity": "low",
+        "version": "<0.7.0",
+        "via": "cookie accepts cookie name, path, and domain with out of bounds characters",
+        "fixAvailable": "yes",
+        "description": "cookie accepts cookie name, path, and domain with out of bounds characters"
+      },
+      {
+        "name": "send",
+        "severity": "low",
+        "version": "<0.19.0",
+        "via": "send vulnerable to template injection that can lead to XSS",
+        "fixAvailable": "yes",
+        "description": "send vulnerable to template injection that can lead to XSS"
+      },
+      {
+        "name": "serve-static",
+        "severity": "low",
+        "version": "<=1.16.0",
+        "via": "serve-static vulnerable to template injection that can lead to XSS, send",
+        "fixAvailable": "yes",
+        "description": "serve-static vulnerable to template injection that can lead to XSS"
+      }
+    ],
+    "summary": {
+      "totalDependencies": 4,
+      "totalVulnerabilities": 23,
+      "critical": 0,
+      "high": 15,
+      "moderate": 5,
+      "low": 3,
+      "riskScore": 8
+    },
+    "signatures": {
+      "verified": [
+        "express",
+        "lodash",
+        "moment",
+        "nodemon"
+      ],
+      "unverified": [],
+      "status": "full",
+      "message": "✓ npm audit signatures verified",
+      "totalPackages": 4,
+      "verifiedCount": 4,
+      "unverifiedCount": 0
+    },
+    "supportedLanguages": [
+      {
+        "name": "Node.js",
+        "file": "package.json",
+        "tool": "npm audit"
+      }
+    ]
+  },
+  {
+    "id": "2cad8dc4-eaa3-450c-b810-974b20477b82",
+    "projectName": "My Project",
+    "timestamp": "2026-01-09T17:47:12.732Z",
+    "dependencies": [],
+    "vulnerabilities": [],
+    "summary": {
+      "totalDependencies": 0,
+      "totalVulnerabilities": 0,
+      "critical": 0,
+      "high": 0,
+      "moderate": 0,
+      "low": 0,
+      "riskScore": 0
+    },
+    "signatures": {
+      "verified": [],
+      "unverified": [],
+      "status": "partial",
+      "message": "Sigstore verification (npm registry)",
+      "totalPackages": 0,
+      "verifiedCount": 0,
+      "unverifiedCount": 0
+    },
+    "supportedLanguages": [
+      {
+        "name": "Node.js",
+        "file": "package.json",
+        "tool": "npm audit"
+      }
+    ]
+  },
+  {
+    "id": "1931711b-dfea-45a3-8a29-ea04d3c146db",
+    "projectName": "My Project",
+    "timestamp": "2026-01-09T18:20:53.177Z",
+    "dependencies": [
+      {
+        "name": "express",
+        "version": "4.17.1",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "lodash",
+        "version": "4.17.19",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "moment",
+        "version": "2.24.0",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "nodemon",
+        "version": "1.19.0",
+        "type": "dev",
+        "vulnerabilities": 1
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "name": "body-parser",
+        "severity": "high",
+        "version": "<=1.20.2",
+        "via": "body-parser vulnerable to denial of service when url encoding is enabled, qs",
+        "fixAvailable": "yes",
+        "description": "body-parser vulnerable to denial of service when url encoding is enabled"
+      },
+      {
+        "name": "boxen",
+        "severity": "high",
+        "version": "1.2.0 - 3.2.0",
+        "via": "term-size",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "braces",
+        "severity": "high",
+        "version": "<3.0.3",
+        "via": "Uncontrolled resource consumption in braces",
+        "fixAvailable": "yes",
+        "description": "Uncontrolled resource consumption in braces"
+      },
+      {
+        "name": "chokidar",
+        "severity": "high",
+        "version": "1.3.0 - 2.1.8",
+        "via": "anymatch, braces, readdirp",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "cross-spawn",
+        "severity": "high",
+        "version": "<6.0.6",
+        "via": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn"
+      },
+      {
+        "name": "execa",
+        "severity": "high",
+        "version": "0.5.0 - 0.9.0",
+        "via": "cross-spawn",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "express",
+        "severity": "high",
+        "version": "<=4.21.0 || 5.0.0-alpha.1 - 5.0.0",
+        "via": "express vulnerable to XSS via response.redirect(), Express.js Open Redirect in malformed URLs, body-parser, cookie, path-to-regexp, qs, send, serve-static",
+        "fixAvailable": "yes",
+        "description": "express vulnerable to XSS via response.redirect()"
+      },
+      {
+        "name": "lodash",
+        "severity": "high",
+        "version": "<=4.17.20",
+        "via": "Command Injection in lodash, Regular Expression Denial of Service (ReDoS) in lodash",
+        "fixAvailable": "yes",
+        "description": "Command Injection in lodash"
+      },
+      {
+        "name": "micromatch",
+        "severity": "high",
+        "version": "<=4.0.7",
+        "via": "Regular Expression Denial of Service (ReDoS) in micromatch, braces",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in micromatch"
+      },
+      {
+        "name": "moment",
+        "severity": "high",
+        "version": "<=2.29.3",
+        "via": "Path Traversal: 'dir/../../filename' in moment.locale, Moment.js vulnerable to Inefficient Regular Expression Complexity",
+        "fixAvailable": "yes",
+        "description": "Path Traversal: 'dir/../../filename' in moment.locale"
+      },
+      {
+        "name": "nodemon",
+        "severity": "high",
+        "version": "1.3.5 - 2.0.16 || 2.0.18",
+        "via": "chokidar, update-notifier",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "path-to-regexp",
+        "severity": "high",
+        "version": "<=0.1.11",
+        "via": "path-to-regexp outputs backtracking regular expressions, path-to-regexp contains a ReDoS",
+        "fixAvailable": "yes",
+        "description": "path-to-regexp outputs backtracking regular expressions"
+      },
+      {
+        "name": "qs",
+        "severity": "high",
+        "version": "<=6.14.0",
+        "via": "qs vulnerable to Prototype Pollution, qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion",
+        "fixAvailable": "yes",
+        "description": "qs vulnerable to Prototype Pollution"
+      },
+      {
+        "name": "term-size",
+        "severity": "high",
+        "version": "1.0.0 - 1.2.0",
+        "via": "execa",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "update-notifier",
+        "severity": "high",
+        "version": "0.2.0 - 5.1.0",
+        "via": "boxen, latest-version",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "anymatch",
+        "severity": "moderate",
+        "version": "1.2.0 - 2.0.0",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "got",
+        "severity": "moderate",
+        "version": "<11.8.5",
+        "via": "Got allows a redirect to a UNIX socket",
+        "fixAvailable": "yes",
+        "description": "Got allows a redirect to a UNIX socket"
+      },
+      {
+        "name": "latest-version",
+        "severity": "moderate",
+        "version": "0.2.0 - 5.1.0",
+        "via": "package-json",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "package-json",
+        "severity": "moderate",
+        "version": "<=6.5.0",
+        "via": "got",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "readdirp",
+        "severity": "moderate",
+        "version": "2.2.0 - 2.2.1",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "cookie",
+        "severity": "low",
+        "version": "<0.7.0",
+        "via": "cookie accepts cookie name, path, and domain with out of bounds characters",
+        "fixAvailable": "yes",
+        "description": "cookie accepts cookie name, path, and domain with out of bounds characters"
+      },
+      {
+        "name": "send",
+        "severity": "low",
+        "version": "<0.19.0",
+        "via": "send vulnerable to template injection that can lead to XSS",
+        "fixAvailable": "yes",
+        "description": "send vulnerable to template injection that can lead to XSS"
+      },
+      {
+        "name": "serve-static",
+        "severity": "low",
+        "version": "<=1.16.0",
+        "via": "serve-static vulnerable to template injection that can lead to XSS, send",
+        "fixAvailable": "yes",
+        "description": "serve-static vulnerable to template injection that can lead to XSS"
+      }
+    ],
+    "summary": {
+      "totalDependencies": 4,
+      "totalVulnerabilities": 23,
+      "critical": 0,
+      "high": 15,
+      "moderate": 5,
+      "low": 3,
+      "riskScore": 8
+    },
+    "signatures": {
+      "verified": [
+        "express",
+        "lodash",
+        "moment",
+        "nodemon"
+      ],
+      "unverified": [],
+      "status": "partial",
+      "message": "Sigstore verification (npm registry)",
+      "totalPackages": 4,
+      "verifiedCount": 4,
+      "unverifiedCount": 0
+    },
+    "supportedLanguages": [
+      {
+        "name": "Node.js",
+        "file": "package.json",
+        "tool": "npm audit"
+      }
+    ]
+  },
+  {
+    "id": "a943436c-86c7-4278-b367-173f1102238b",
+    "projectName": "My Project",
+    "timestamp": "2026-01-09T18:26:11.342Z",
+    "dependencies": [
+      {
+        "name": "express",
+        "version": "4.17.1",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "lodash",
+        "version": "4.17.19",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "moment",
+        "version": "2.24.0",
+        "type": "direct",
+        "vulnerabilities": 1
+      },
+      {
+        "name": "nodemon",
+        "version": "1.19.0",
+        "type": "dev",
+        "vulnerabilities": 1
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "name": "body-parser",
+        "severity": "high",
+        "version": "<=1.20.2",
+        "via": "body-parser vulnerable to denial of service when url encoding is enabled, qs",
+        "fixAvailable": "yes",
+        "description": "body-parser vulnerable to denial of service when url encoding is enabled"
+      },
+      {
+        "name": "boxen",
+        "severity": "high",
+        "version": "1.2.0 - 3.2.0",
+        "via": "term-size",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "braces",
+        "severity": "high",
+        "version": "<3.0.3",
+        "via": "Uncontrolled resource consumption in braces",
+        "fixAvailable": "yes",
+        "description": "Uncontrolled resource consumption in braces"
+      },
+      {
+        "name": "chokidar",
+        "severity": "high",
+        "version": "1.3.0 - 2.1.8",
+        "via": "anymatch, braces, readdirp",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "cross-spawn",
+        "severity": "high",
+        "version": "<6.0.6",
+        "via": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn"
+      },
+      {
+        "name": "execa",
+        "severity": "high",
+        "version": "0.5.0 - 0.9.0",
+        "via": "cross-spawn",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "express",
+        "severity": "high",
+        "version": "<=4.21.0 || 5.0.0-alpha.1 - 5.0.0",
+        "via": "express vulnerable to XSS via response.redirect(), Express.js Open Redirect in malformed URLs, body-parser, cookie, path-to-regexp, qs, send, serve-static",
+        "fixAvailable": "yes",
+        "description": "express vulnerable to XSS via response.redirect()"
+      },
+      {
+        "name": "lodash",
+        "severity": "high",
+        "version": "<=4.17.20",
+        "via": "Command Injection in lodash, Regular Expression Denial of Service (ReDoS) in lodash",
+        "fixAvailable": "yes",
+        "description": "Command Injection in lodash"
+      },
+      {
+        "name": "micromatch",
+        "severity": "high",
+        "version": "<=4.0.7",
+        "via": "Regular Expression Denial of Service (ReDoS) in micromatch, braces",
+        "fixAvailable": "yes",
+        "description": "Regular Expression Denial of Service (ReDoS) in micromatch"
+      },
+      {
+        "name": "moment",
+        "severity": "high",
+        "version": "<=2.29.3",
+        "via": "Path Traversal: 'dir/../../filename' in moment.locale, Moment.js vulnerable to Inefficient Regular Expression Complexity",
+        "fixAvailable": "yes",
+        "description": "Path Traversal: 'dir/../../filename' in moment.locale"
+      },
+      {
+        "name": "nodemon",
+        "severity": "high",
+        "version": "1.3.5 - 2.0.16 || 2.0.18",
+        "via": "chokidar, update-notifier",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "path-to-regexp",
+        "severity": "high",
+        "version": "<=0.1.11",
+        "via": "path-to-regexp outputs backtracking regular expressions, path-to-regexp contains a ReDoS",
+        "fixAvailable": "yes",
+        "description": "path-to-regexp outputs backtracking regular expressions"
+      },
+      {
+        "name": "qs",
+        "severity": "high",
+        "version": "<=6.14.0",
+        "via": "qs vulnerable to Prototype Pollution, qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion",
+        "fixAvailable": "yes",
+        "description": "qs vulnerable to Prototype Pollution"
+      },
+      {
+        "name": "term-size",
+        "severity": "high",
+        "version": "1.0.0 - 1.2.0",
+        "via": "execa",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "update-notifier",
+        "severity": "high",
+        "version": "0.2.0 - 5.1.0",
+        "via": "boxen, latest-version",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "anymatch",
+        "severity": "moderate",
+        "version": "1.2.0 - 2.0.0",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "got",
+        "severity": "moderate",
+        "version": "<11.8.5",
+        "via": "Got allows a redirect to a UNIX socket",
+        "fixAvailable": "yes",
+        "description": "Got allows a redirect to a UNIX socket"
+      },
+      {
+        "name": "latest-version",
+        "severity": "moderate",
+        "version": "0.2.0 - 5.1.0",
+        "via": "package-json",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "package-json",
+        "severity": "moderate",
+        "version": "<=6.5.0",
+        "via": "got",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "readdirp",
+        "severity": "moderate",
+        "version": "2.2.0 - 2.2.1",
+        "via": "micromatch",
+        "fixAvailable": "yes",
+        "description": "See details"
+      },
+      {
+        "name": "cookie",
+        "severity": "low",
+        "version": "<0.7.0",
+        "via": "cookie accepts cookie name, path, and domain with out of bounds characters",
+        "fixAvailable": "yes",
+        "description": "cookie accepts cookie name, path, and domain with out of bounds characters"
+      },
+      {
+        "name": "send",
+        "severity": "low",
+        "version": "<0.19.0",
+        "via": "send vulnerable to template injection that can lead to XSS",
+        "fixAvailable": "yes",
+        "description": "send vulnerable to template injection that can lead to XSS"
+      },
+      {
+        "name": "serve-static",
+        "severity": "low",
+        "version": "<=1.16.0",
+        "via": "serve-static vulnerable to template injection that can lead to XSS, send",
+        "fixAvailable": "yes",
+        "description": "serve-static vulnerable to template injection that can lead to XSS"
+      }
+    ],
+    "summary": {
+      "totalDependencies": 4,
+      "totalVulnerabilities": 23,
+      "critical": 0,
+      "high": 15,
+      "moderate": 5,
+      "low": 3,
+      "riskScore": 8
+    },
+    "signatures": {
+      "verified": [
+        "express",
+        "lodash",
+        "moment",
+        "nodemon"
+      ],
+      "unverified": [],
+      "status": "partial",
+      "message": "Sigstore verification (npm registry)",
+      "totalPackages": 4,
+      "verifiedCount": 4,
+      "unverifiedCount": 0
+    },
+    "supportedLanguages": [
+      {
+        "name": "Node.js",
+        "file": "package.json",
+        "tool": "npm audit"
+      }
+    ]
+  },
+  {
+    "id": "c207c4c1-ae2d-4b02-9539-4796d99fb46e",
+    "projectName": "My Project",
+    "timestamp": "2026-01-09T18:32:25.016Z",
+    "dependencies": [],
+    "vulnerabilities": [],
+    "summary": {
+      "totalDependencies": 0,
+      "totalVulnerabilities": 0,
+      "critical": 0,
+      "high": 0,
+      "moderate": 0,
+      "low": 0,
+      "riskScore": 0
+    },
+    "signatures": {
+      "verified": [],
+      "unverified": [],
+      "status": "partial",
+      "message": "Sigstore verification (npm registry)",
+      "totalPackages": 0,
+      "verifiedCount": 0,
+      "unverifiedCount": 0
+    },
+    "supportedLanguages": [
+      {
+        "name": "Node.js",
+        "file": "package.json",
+        "tool": "npm audit"
+      }
+    ]
+  },
+  {
+    "id": "9c1f02f0-19e8-4bd1-a345-bc1a6d1fcce3",
+    "projectName": "My Project",
+    "timestamp": "2026-01-09T18:32:48.166Z",
+    "dependencies": [],
+    "vulnerabilities": [],
+    "summary": {
+      "totalDependencies": 0,
+      "totalVulnerabilities": 0,
+      "critical": 0,
+      "high": 0,
+      "moderate": 0,
+      "low": 0,
+      "riskScore": 0
+    },
+    "signatures": {
+      "verified": [],
+      "unverified": [],
+      "status": "partial",
+      "message": "Sigstore verification (npm registry)",
+      "totalPackages": 0,
+      "verifiedCount": 0,
+      "unverifiedCount": 0
+    },
+    "supportedLanguages": [
+      {
+        "name": "Node.js",
+        "file": "package.json",
+        "tool": "npm audit"
+      }
+    ]
+  },
+  {
+    "id": "8f2533d0-eee2-4267-87af-80a2a9ccbe49",
+    "projectName": "My Project",
+    "timestamp": "2026-01-09T18:35:13.927Z",
+    "dependencies": [],
+    "vulnerabilities": [],
+    "summary": {
+      "totalDependencies": 0,
+      "totalVulnerabilities": 0,
+      "critical": 0,
+      "high": 0,
+      "moderate": 0,
+      "low": 0,
+      "riskScore": 0
+    },
+    "signatures": {
+      "verified": [],
+      "unverified": [],
+      "status": "partial",
+      "message": "Sigstore verification (npm registry)",
+      "totalPackages": 0,
+      "verifiedCount": 0,
+      "unverifiedCount": 0
+    },
+    "supportedLanguages": [
+      {
+        "name": "Node.js",
+        "file": "package.json",
+        "tool": "npm audit"
+      }
+    ]
+  },
+  {
+    "id": "059c5ef0-32d7-4988-9beb-ab58272149fa",
+    "projectName": "My Project",
+    "timestamp": "2026-01-09T18:35:35.344Z",
+    "dependencies": [],
+    "vulnerabilities": [],
+    "summary": {
+      "totalDependencies": 0,
+      "totalVulnerabilities": 0,
+      "critical": 0,
+      "high": 0,
+      "moderate": 0,
+      "low": 0,
+      "riskScore": 0
+    },
+    "signatures": {
+      "verified": [],
+      "unverified": [],
+      "status": "partial",
+      "message": "Sigstore verification (npm registry)",
+      "totalPackages": 0,
+      "verifiedCount": 0,
+      "unverifiedCount": 0
+    },
+    "supportedLanguages": [
+      {
+        "name": "Node.js",
+        "file": "package.json",
+        "tool": "npm audit"
+      }
+    ]
+  },
+  {
+    "id": "c9d3838c-5ec7-4e0b-be6a-a5534fe1aec8",
+    "projectName": "My Project",
+    "timestamp": "2026-01-09T18:36:48.188Z",
+    "dependencies": [
+      {
+        "name": "express",
+        "version": "4.18.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "fastify",
+        "version": "4.25.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "koa",
+        "version": "2.14.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "hapi",
+        "version": "21.3.7",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "nest",
+        "version": "10.2.10",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "restify",
+        "version": "11.1.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "body-parser",
+        "version": "1.20.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "multer",
+        "version": "1.4.5",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "cors",
+        "version": "2.8.5",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "helmet",
+        "version": "7.1.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "compression",
+        "version": "1.7.4",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "morgan",
+        "version": "1.10.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "mongoose",
+        "version": "8.0.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "typeorm",
+        "version": "0.3.19",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "sequelize",
+        "version": "6.35.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "prisma",
+        "version": "5.7.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "knex",
+        "version": "3.1.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "pg",
+        "version": "8.11.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "mysql2",
+        "version": "3.6.5",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "mongodb",
+        "version": "6.3.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "redis",
+        "version": "4.6.12",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "jsonwebtoken",
+        "version": "9.1.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "bcryptjs",
+        "version": "2.4.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "passport",
+        "version": "0.7.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "passport-jwt",
+        "version": "4.0.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "argon2",
+        "version": "0.31.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "joi",
+        "version": "17.11.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "yup",
+        "version": "1.3.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "zod",
+        "version": "3.22.4",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "validator",
+        "version": "13.11.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "winston",
+        "version": "3.11.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "pino",
+        "version": "8.17.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "sentry",
+        "version": "7.83.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "jest",
+        "version": "29.7.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "mocha",
+        "version": "10.2.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "chai",
+        "version": "4.3.10",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "supertest",
+        "version": "6.3.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "lodash",
+        "version": "4.17.21",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "uuid",
+        "version": "9.0.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "moment",
+        "version": "2.29.4",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "axios",
+        "version": "1.6.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "dotenv",
+        "version": "16.3.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "bull",
+        "version": "4.11.5",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "bullmq",
+        "version": "5.0.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "agenda",
+        "version": "4.3.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "graphql",
+        "version": "16.8.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "apollo-server",
+        "version": "4.10.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "socket.io",
+        "version": "4.7.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "aws-sdk",
+        "version": "2.1565.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "sharp",
+        "version": "0.33.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "nodemailer",
+        "version": "6.9.7",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "eslint",
+        "version": "8.54.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "prettier",
+        "version": "3.1.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "express-rate-limit",
+        "version": "7.1.5",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "webpack",
+        "version": "5.89.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "vite",
+        "version": "5.0.8",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "request",
+        "version": "2.88.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "iconv-lite",
+        "version": "0.4.24",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "qs",
+        "version": "6.11.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "mime-types",
+        "version": "2.1.35",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "debug",
+        "version": "4.3.4",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "semver",
+        "version": "7.5.4",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "chalk",
+        "version": "5.3.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "commander",
+        "version": "11.1.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "yargs",
+        "version": "17.7.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "minimist",
+        "version": "1.2.8",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "rc",
+        "version": "1.2.8",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "config",
+        "version": "3.3.9",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "nconf",
+        "version": "0.12.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "class-validator",
+        "version": "0.14.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "express-validator",
+        "version": "7.0.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "bunyan",
+        "version": "1.8.15",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "swagger-ui-express",
+        "version": "5.0.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "swagger-jsdoc",
+        "version": "6.0.8",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "pm2",
+        "version": "5.3.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "nodemon",
+        "version": "3.0.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "typescript",
+        "version": "5.3.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "ts-node",
+        "version": "10.9.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "tslint",
+        "version": "6.1.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "@babel/core",
+        "version": "7.23.6",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "babel-loader",
+        "version": "9.1.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "ts-loader",
+        "version": "9.5.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "style-loader",
+        "version": "3.3.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "css-loader",
+        "version": "6.8.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "postcss",
+        "version": "8.4.32",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "sass",
+        "version": "1.69.5",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "less",
+        "version": "4.2.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "autoprefixer",
+        "version": "10.4.16",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "tailwindcss",
+        "version": "3.3.6",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "bootstrap",
+        "version": "5.3.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "@material-ui/core",
+        "version": "5.14.14",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "react",
+        "version": "18.2.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "vue",
+        "version": "3.3.8",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "@angular/core",
+        "version": "17.0.8",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "svelte",
+        "version": "4.2.8",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "next",
+        "version": "14.1.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "nuxt",
+        "version": "3.8.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "gatsby",
+        "version": "5.12.13",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "astro",
+        "version": "4.1.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "@11ty/eleventy",
+        "version": "3.0.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "docusaurus",
+        "version": "3.0.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "graphql-codegen",
+        "version": "5.0.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "protobufjs",
+        "version": "7.2.5",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "@grpc/grpc-js",
+        "version": "1.9.11",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "thrift",
+        "version": "0.13.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "avsc",
+        "version": "1.11.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "msgpack",
+        "version": "1.0.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "bson",
+        "version": "5.5.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "xml2js",
+        "version": "0.6.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "csv-parse",
+        "version": "5.5.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "papaparse",
+        "version": "5.4.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "fast-xml-parser",
+        "version": "4.3.6",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "yaml",
+        "version": "2.3.4",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "toml",
+        "version": "3.0.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "ini",
+        "version": "4.1.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "js-yaml",
+        "version": "4.1.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "esprima",
+        "version": "4.0.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "acorn",
+        "version": "8.11.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "recast",
+        "version": "0.23.5",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "jscodeshift",
+        "version": "0.15.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "stylint",
+        "version": "1.0.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "sass-lint",
+        "version": "1.13.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "stylelint",
+        "version": "16.0.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "htmlhint",
+        "version": "1.1.4",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "markdownlint",
+        "version": "0.32.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "alex",
+        "version": "11.0.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "remark",
+        "version": "15.0.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "rehype",
+        "version": "13.0.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "unified",
+        "version": "10.1.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "vfile",
+        "version": "6.0.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "vinyl",
+        "version": "3.0.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "through2",
+        "version": "4.0.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "gulp",
+        "version": "4.0.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "grunt",
+        "version": "1.3.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "broccoli",
+        "version": "3.0.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "rollup",
+        "version": "4.5.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "parcel",
+        "version": "2.10.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "esbuild",
+        "version": "0.19.11",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "swc",
+        "version": "1.3.99",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "snowpack",
+        "version": "3.8.8",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "ts-jest",
+        "version": "29.1.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "vitest",
+        "version": "1.0.4",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "jasmine",
+        "version": "5.1.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "qunit",
+        "version": "2.20.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "ava",
+        "version": "6.0.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "tap",
+        "version": "18.6.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "tape",
+        "version": "5.7.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "karma",
+        "version": "6.4.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "puppeteer",
+        "version": "21.6.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "playwright",
+        "version": "1.40.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "cypress",
+        "version": "13.6.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "webdriverio",
+        "version": "8.27.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "selenium-webdriver",
+        "version": "4.15.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "testcafe",
+        "version": "1.20.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "nightwatch",
+        "version": "2.6.21",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "codecov",
+        "version": "3.8.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "coveralls",
+        "version": "3.1.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "nyc",
+        "version": "15.1.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "sinon",
+        "version": "17.0.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "should",
+        "version": "13.2.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "expect",
+        "version": "29.7.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "assert-plus",
+        "version": "1.0.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "npm-check-updates",
+        "version": "16.14.6",
+        "type": "dev",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "npm-audit-fix",
+        "version": "1.0.0",
+        "type": "dev",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "lerna",
+        "version": "8.1.2",
+        "type": "dev",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "pnpm",
+        "version": "8.12.1",
+        "type": "dev",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "yarn",
+        "version": "4.0.2",
+        "type": "dev",
+        "vulnerabilities": 0
+      }
+    ],
+    "vulnerabilities": [],
+    "summary": {
+      "totalDependencies": 167,
+      "totalVulnerabilities": 0,
+      "critical": 0,
+      "high": 0,
+      "moderate": 0,
+      "low": 0,
+      "riskScore": 0
+    },
+    "signatures": {
+      "verified": [
+        "express",
+        "body-parser",
+        "cors",
+        "jest",
+        "lodash",
+        "uuid",
+        "moment",
+        "axios",
+        "dotenv",
+        "eslint",
+        "prettier",
+        "webpack",
+        "nodemon",
+        "typescript",
+        "ts-node",
+        "react",
+        "vue",
+        "next"
+      ],
+      "unverified": [
+        "fastify",
+        "koa",
+        "hapi",
+        "nest",
+        "restify",
+        "multer",
+        "helmet",
+        "compression",
+        "morgan",
+        "mongoose",
+        "typeorm",
+        "sequelize",
+        "prisma",
+        "knex",
+        "pg",
+        "mysql2",
+        "mongodb",
+        "redis",
+        "jsonwebtoken",
+        "bcryptjs",
+        "passport",
+        "passport-jwt",
+        "argon2",
+        "joi",
+        "yup",
+        "zod",
+        "validator",
+        "winston",
+        "pino",
+        "sentry",
+        "mocha",
+        "chai",
+        "supertest",
+        "bull",
+        "bullmq",
+        "agenda",
+        "graphql",
+        "apollo-server",
+        "socket.io",
+        "aws-sdk",
+        "sharp",
+        "nodemailer",
+        "express-rate-limit",
+        "vite",
+        "request",
+        "iconv-lite",
+        "qs",
+        "mime-types",
+        "debug",
+        "semver",
+        "chalk",
+        "commander",
+        "yargs",
+        "minimist",
+        "rc",
+        "config",
+        "nconf",
+        "class-validator",
+        "express-validator",
+        "bunyan",
+        "swagger-ui-express",
+        "swagger-jsdoc",
+        "pm2",
+        "tslint",
+        "@babel/core",
+        "babel-loader",
+        "ts-loader",
+        "style-loader",
+        "css-loader",
+        "postcss",
+        "sass",
+        "less",
+        "autoprefixer",
+        "tailwindcss",
+        "bootstrap",
+        "@material-ui/core",
+        "@angular/core",
+        "svelte",
+        "nuxt",
+        "gatsby",
+        "astro",
+        "@11ty/eleventy",
+        "docusaurus",
+        "graphql-codegen",
+        "protobufjs",
+        "@grpc/grpc-js",
+        "thrift",
+        "avsc",
+        "msgpack",
+        "bson",
+        "xml2js",
+        "csv-parse",
+        "papaparse",
+        "fast-xml-parser",
+        "yaml",
+        "toml",
+        "ini",
+        "js-yaml",
+        "esprima",
+        "acorn",
+        "recast",
+        "jscodeshift",
+        "stylint",
+        "sass-lint",
+        "stylelint",
+        "htmlhint",
+        "markdownlint",
+        "alex",
+        "remark",
+        "rehype",
+        "unified",
+        "vfile",
+        "vinyl",
+        "through2",
+        "gulp",
+        "grunt",
+        "broccoli",
+        "rollup",
+        "parcel",
+        "esbuild",
+        "swc",
+        "snowpack",
+        "ts-jest",
+        "vitest",
+        "jasmine",
+        "qunit",
+        "ava",
+        "tap",
+        "tape",
+        "karma",
+        "puppeteer",
+        "playwright",
+        "cypress",
+        "webdriverio",
+        "selenium-webdriver",
+        "testcafe",
+        "nightwatch",
+        "codecov",
+        "coveralls",
+        "nyc",
+        "sinon",
+        "should",
+        "expect",
+        "assert-plus",
+        "npm-check-updates",
+        "npm-audit-fix",
+        "lerna",
+        "pnpm",
+        "yarn"
+      ],
+      "status": "partial",
+      "message": "Sigstore verification (npm registry)",
+      "totalPackages": 167,
+      "verifiedCount": 18,
+      "unverifiedCount": 149
+    },
+    "supportedLanguages": [
+      {
+        "name": "Node.js",
+        "file": "package.json",
+        "tool": "npm audit"
+      }
+    ]
+  },
+  {
+    "id": "352c0313-d1fd-4fe0-9684-ff665fd9e5cb",
+    "projectName": "My Project",
+    "timestamp": "2026-01-09T18:43:08.760Z",
+    "dependencies": [
+      {
+        "name": "express",
+        "version": "4.18.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "fastify",
+        "version": "4.25.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "koa",
+        "version": "2.14.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "hapi",
+        "version": "21.3.7",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "nest",
+        "version": "10.2.10",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "restify",
+        "version": "11.1.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "body-parser",
+        "version": "1.20.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "multer",
+        "version": "1.4.5",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "cors",
+        "version": "2.8.5",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "helmet",
+        "version": "7.1.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "compression",
+        "version": "1.7.4",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "morgan",
+        "version": "1.10.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "mongoose",
+        "version": "8.0.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "typeorm",
+        "version": "0.3.19",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "sequelize",
+        "version": "6.35.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "prisma",
+        "version": "5.7.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "knex",
+        "version": "3.1.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "pg",
+        "version": "8.11.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "mysql2",
+        "version": "3.6.5",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "mongodb",
+        "version": "6.3.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "redis",
+        "version": "4.6.12",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "jsonwebtoken",
+        "version": "9.1.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "bcryptjs",
+        "version": "2.4.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "passport",
+        "version": "0.7.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "passport-jwt",
+        "version": "4.0.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "argon2",
+        "version": "0.31.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "joi",
+        "version": "17.11.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "yup",
+        "version": "1.3.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "zod",
+        "version": "3.22.4",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "validator",
+        "version": "13.11.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "winston",
+        "version": "3.11.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "pino",
+        "version": "8.17.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "sentry",
+        "version": "7.83.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "jest",
+        "version": "29.7.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "mocha",
+        "version": "10.2.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "chai",
+        "version": "4.3.10",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "supertest",
+        "version": "6.3.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "lodash",
+        "version": "4.17.21",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "uuid",
+        "version": "9.0.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "moment",
+        "version": "2.29.4",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "axios",
+        "version": "1.6.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "dotenv",
+        "version": "16.3.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "bull",
+        "version": "4.11.5",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "bullmq",
+        "version": "5.0.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "agenda",
+        "version": "4.3.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "graphql",
+        "version": "16.8.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "apollo-server",
+        "version": "4.10.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "socket.io",
+        "version": "4.7.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "aws-sdk",
+        "version": "2.1565.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "sharp",
+        "version": "0.33.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "nodemailer",
+        "version": "6.9.7",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "eslint",
+        "version": "8.54.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "prettier",
+        "version": "3.1.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "express-rate-limit",
+        "version": "7.1.5",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "webpack",
+        "version": "5.89.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "vite",
+        "version": "5.0.8",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "request",
+        "version": "2.88.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "iconv-lite",
+        "version": "0.4.24",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "qs",
+        "version": "6.11.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "mime-types",
+        "version": "2.1.35",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "debug",
+        "version": "4.3.4",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "semver",
+        "version": "7.5.4",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "chalk",
+        "version": "5.3.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "commander",
+        "version": "11.1.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "yargs",
+        "version": "17.7.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "minimist",
+        "version": "1.2.8",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "rc",
+        "version": "1.2.8",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "config",
+        "version": "3.3.9",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "nconf",
+        "version": "0.12.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "class-validator",
+        "version": "0.14.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "express-validator",
+        "version": "7.0.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "bunyan",
+        "version": "1.8.15",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "swagger-ui-express",
+        "version": "5.0.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "swagger-jsdoc",
+        "version": "6.0.8",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "pm2",
+        "version": "5.3.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "nodemon",
+        "version": "3.0.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "typescript",
+        "version": "5.3.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "ts-node",
+        "version": "10.9.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "tslint",
+        "version": "6.1.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "@babel/core",
+        "version": "7.23.6",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "babel-loader",
+        "version": "9.1.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "ts-loader",
+        "version": "9.5.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "style-loader",
+        "version": "3.3.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "css-loader",
+        "version": "6.8.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "postcss",
+        "version": "8.4.32",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "sass",
+        "version": "1.69.5",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "less",
+        "version": "4.2.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "autoprefixer",
+        "version": "10.4.16",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "tailwindcss",
+        "version": "3.3.6",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "bootstrap",
+        "version": "5.3.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "@material-ui/core",
+        "version": "5.14.14",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "react",
+        "version": "18.2.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "vue",
+        "version": "3.3.8",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "@angular/core",
+        "version": "17.0.8",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "svelte",
+        "version": "4.2.8",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "next",
+        "version": "14.1.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "nuxt",
+        "version": "3.8.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "gatsby",
+        "version": "5.12.13",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "astro",
+        "version": "4.1.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "@11ty/eleventy",
+        "version": "3.0.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "docusaurus",
+        "version": "3.0.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "graphql-codegen",
+        "version": "5.0.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "protobufjs",
+        "version": "7.2.5",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "@grpc/grpc-js",
+        "version": "1.9.11",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "thrift",
+        "version": "0.13.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "avsc",
+        "version": "1.11.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "msgpack",
+        "version": "1.0.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "bson",
+        "version": "5.5.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "xml2js",
+        "version": "0.6.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "csv-parse",
+        "version": "5.5.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "papaparse",
+        "version": "5.4.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "fast-xml-parser",
+        "version": "4.3.6",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "yaml",
+        "version": "2.3.4",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "toml",
+        "version": "3.0.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "ini",
+        "version": "4.1.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "js-yaml",
+        "version": "4.1.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "esprima",
+        "version": "4.0.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "acorn",
+        "version": "8.11.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "recast",
+        "version": "0.23.5",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "jscodeshift",
+        "version": "0.15.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "stylint",
+        "version": "1.0.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "sass-lint",
+        "version": "1.13.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "stylelint",
+        "version": "16.0.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "htmlhint",
+        "version": "1.1.4",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "markdownlint",
+        "version": "0.32.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "alex",
+        "version": "11.0.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "remark",
+        "version": "15.0.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "rehype",
+        "version": "13.0.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "unified",
+        "version": "10.1.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "vfile",
+        "version": "6.0.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "vinyl",
+        "version": "3.0.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "through2",
+        "version": "4.0.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "gulp",
+        "version": "4.0.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "grunt",
+        "version": "1.3.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "broccoli",
+        "version": "3.0.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "rollup",
+        "version": "4.5.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "parcel",
+        "version": "2.10.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "esbuild",
+        "version": "0.19.11",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "swc",
+        "version": "1.3.99",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "snowpack",
+        "version": "3.8.8",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "ts-jest",
+        "version": "29.1.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "vitest",
+        "version": "1.0.4",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "jasmine",
+        "version": "5.1.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "qunit",
+        "version": "2.20.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "ava",
+        "version": "6.0.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "tap",
+        "version": "18.6.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "tape",
+        "version": "5.7.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "karma",
+        "version": "6.4.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "puppeteer",
+        "version": "21.6.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "playwright",
+        "version": "1.40.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "cypress",
+        "version": "13.6.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "webdriverio",
+        "version": "8.27.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "selenium-webdriver",
+        "version": "4.15.2",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "testcafe",
+        "version": "1.20.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "nightwatch",
+        "version": "2.6.21",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "codecov",
+        "version": "3.8.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "coveralls",
+        "version": "3.1.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "nyc",
+        "version": "15.1.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "sinon",
+        "version": "17.0.1",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "should",
+        "version": "13.2.3",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "expect",
+        "version": "29.7.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "assert-plus",
+        "version": "1.0.0",
+        "type": "direct",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "npm-check-updates",
+        "version": "16.14.6",
+        "type": "dev",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "npm-audit-fix",
+        "version": "1.0.0",
+        "type": "dev",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "lerna",
+        "version": "8.1.2",
+        "type": "dev",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "pnpm",
+        "version": "8.12.1",
+        "type": "dev",
+        "vulnerabilities": 0
+      },
+      {
+        "name": "yarn",
+        "version": "4.0.2",
+        "type": "dev",
+        "vulnerabilities": 0
+      }
+    ],
+    "vulnerabilities": [],
+    "summary": {
+      "totalDependencies": 167,
+      "totalVulnerabilities": 0,
+      "critical": 0,
+      "high": 0,
+      "moderate": 0,
+      "low": 0,
+      "riskScore": 0
+    },
+    "signatures": {
+      "verified": [
+        "express",
+        "body-parser",
+        "cors",
+        "jest",
+        "lodash",
+        "uuid",
+        "moment",
+        "axios",
+        "dotenv",
+        "eslint",
+        "prettier",
+        "webpack",
+        "nodemon",
+        "typescript",
+        "ts-node",
+        "react",
+        "vue",
+        "next"
+      ],
+      "unverified": [
+        "fastify",
+        "koa",
+        "hapi",
+        "nest",
+        "restify",
+        "multer",
+        "helmet",
+        "compression",
+        "morgan",
+        "mongoose",
+        "typeorm",
+        "sequelize",
+        "prisma",
+        "knex",
+        "pg",
+        "mysql2",
+        "mongodb",
+        "redis",
+        "jsonwebtoken",
+        "bcryptjs",
+        "passport",
+        "passport-jwt",
+        "argon2",
+        "joi",
+        "yup",
+        "zod",
+        "validator",
+        "winston",
+        "pino",
+        "sentry",
+        "mocha",
+        "chai",
+        "supertest",
+        "bull",
+        "bullmq",
+        "agenda",
+        "graphql",
+        "apollo-server",
+        "socket.io",
+        "aws-sdk",
+        "sharp",
+        "nodemailer",
+        "express-rate-limit",
+        "vite",
+        "request",
+        "iconv-lite",
+        "qs",
+        "mime-types",
+        "debug",
+        "semver",
+        "chalk",
+        "commander",
+        "yargs",
+        "minimist",
+        "rc",
+        "config",
+        "nconf",
+        "class-validator",
+        "express-validator",
+        "bunyan",
+        "swagger-ui-express",
+        "swagger-jsdoc",
+        "pm2",
+        "tslint",
+        "@babel/core",
+        "babel-loader",
+        "ts-loader",
+        "style-loader",
+        "css-loader",
+        "postcss",
+        "sass",
+        "less",
+        "autoprefixer",
+        "tailwindcss",
+        "bootstrap",
+        "@material-ui/core",
+        "@angular/core",
+        "svelte",
+        "nuxt",
+        "gatsby",
+        "astro",
+        "@11ty/eleventy",
+        "docusaurus",
+        "graphql-codegen",
+        "protobufjs",
+        "@grpc/grpc-js",
+        "thrift",
+        "avsc",
+        "msgpack",
+        "bson",
+        "xml2js",
+        "csv-parse",
+        "papaparse",
+        "fast-xml-parser",
+        "yaml",
+        "toml",
+        "ini",
+        "js-yaml",
+        "esprima",
+        "acorn",
+        "recast",
+        "jscodeshift",
+        "stylint",
+        "sass-lint",
+        "stylelint",
+        "htmlhint",
+        "markdownlint",
+        "alex",
+        "remark",
+        "rehype",
+        "unified",
+        "vfile",
+        "vinyl",
+        "through2",
+        "gulp",
+        "grunt",
+        "broccoli",
+        "rollup",
+        "parcel",
+        "esbuild",
+        "swc",
+        "snowpack",
+        "ts-jest",
+        "vitest",
+        "jasmine",
+        "qunit",
+        "ava",
+        "tap",
+        "tape",
+        "karma",
+        "puppeteer",
+        "playwright",
+        "cypress",
+        "webdriverio",
+        "selenium-webdriver",
+        "testcafe",
+        "nightwatch",
+        "codecov",
+        "coveralls",
+        "nyc",
+        "sinon",
+        "should",
+        "expect",
+        "assert-plus",
+        "npm-check-updates",
+        "npm-audit-fix",
+        "lerna",
+        "pnpm",
+        "yarn"
+      ],
+      "status": "partial",
+      "message": "Sigstore verification (npm registry)",
+      "totalPackages": 167,
+      "verifiedCount": 18,
+      "unverifiedCount": 149
+    },
+    "supportedLanguages": [
+      {
+        "name": "Node.js",
+        "file": "package.json",
+        "tool": "npm audit"
+      }
+    ]
+  }
+]

@@ -1,0 +1,217 @@
+{
+  "projectId": "f1702a5d-c0da-4933-a1de-b920506319e9",
+  "projectName": "My Project",
+  "timestamp": "2026-01-09T18:59:14.881Z",
+  "scanDuration": 16146,
+  "summary": {
+    "totalDependencies": 4,
+    "totalVulnerabilities": 18,
+    "riskScore": 100,
+    "severityBreakdown": {
+      "critical": 0,
+      "high": 10,
+      "moderate": 4,
+      "low": 4
+    },
+    "verifiedPackages": 3,
+    "unverifiedPackages": 1
+  },
+  "vulnerabilities": [
+    {
+      "package": "body-parser",
+      "severity": "high",
+      "title": "body-parser vulnerable to denial of service when url encoding is enabled",
+      "cve": "N/A",
+      "range": "<=1.20.2",
+      "fix": "Available"
+    },
+    {
+      "package": "braces",
+      "severity": "high",
+      "title": "Uncontrolled resource consumption in braces",
+      "cve": "N/A",
+      "range": "<3.0.3",
+      "fix": "Available"
+    },
+    {
+      "package": "cookie",
+      "severity": "low",
+      "title": "cookie accepts cookie name, path, and domain with out of bounds characters",
+      "cve": "N/A",
+      "range": "<0.7.0",
+      "fix": "Available"
+    },
+    {
+      "package": "cross-spawn",
+      "severity": "high",
+      "title": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+      "cve": "N/A",
+      "range": "<6.0.6",
+      "fix": "Available"
+    },
+    {
+      "package": "express",
+      "severity": "low",
+      "title": "express vulnerable to XSS via response.redirect()",
+      "cve": "N/A",
+      "range": "<=4.21.0 || 5.0.0-alpha.1 - 5.0.0",
+      "fix": "Available"
+    },
+    {
+      "package": "express",
+      "severity": "moderate",
+      "title": "Express.js Open Redirect in malformed URLs",
+      "cve": "N/A",
+      "range": "<=4.21.0 || 5.0.0-alpha.1 - 5.0.0",
+      "fix": "Available"
+    },
+    {
+      "package": "got",
+      "severity": "moderate",
+      "title": "Got allows a redirect to a UNIX socket",
+      "cve": "N/A",
+      "range": "<11.8.5",
+      "fix": "Available"
+    },
+    {
+      "package": "lodash",
+      "severity": "high",
+      "title": "Command Injection in lodash",
+      "cve": "N/A",
+      "range": "<=4.17.20",
+      "fix": "Available"
+    },
+    {
+      "package": "lodash",
+      "severity": "moderate",
+      "title": "Regular Expression Denial of Service (ReDoS) in lodash",
+      "cve": "N/A",
+      "range": "<=4.17.20",
+      "fix": "Available"
+    },
+    {
+      "package": "micromatch",
+      "severity": "moderate",
+      "title": "Regular Expression Denial of Service (ReDoS) in micromatch",
+      "cve": "N/A",
+      "range": "<=4.0.7",
+      "fix": "Available"
+    },
+    {
+      "package": "moment",
+      "severity": "high",
+      "title": "Path Traversal: 'dir/../../filename' in moment.locale",
+      "cve": "N/A",
+      "range": "<=2.29.3",
+      "fix": "Available"
+    },
+    {
+      "package": "moment",
+      "severity": "high",
+      "title": "Moment.js vulnerable to Inefficient Regular Expression Complexity",
+      "cve": "N/A",
+      "range": "<=2.29.3",
+      "fix": "Available"
+    },
+    {
+      "package": "path-to-regexp",
+      "severity": "high",
+      "title": "path-to-regexp outputs backtracking regular expressions",
+      "cve": "N/A",
+      "range": "<=0.1.11",
+      "fix": "Available"
+    },
+    {
+      "package": "path-to-regexp",
+      "severity": "high",
+      "title": "path-to-regexp contains a ReDoS",
+      "cve": "N/A",
+      "range": "<=0.1.11",
+      "fix": "Available"
+    },
+    {
+      "package": "qs",
+      "severity": "high",
+      "title": "qs vulnerable to Prototype Pollution",
+      "cve": "N/A",
+      "range": "<=6.14.0",
+      "fix": "Available"
+    },
+    {
+      "package": "qs",
+      "severity": "high",
+      "title": "qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion",
+      "cve": "N/A",
+      "range": "<=6.14.0",
+      "fix": "Available"
+    },
+    {
+      "package": "send",
+      "severity": "low",
+      "title": "send vulnerable to template injection that can lead to XSS",
+      "cve": "N/A",
+      "range": "<0.19.0",
+      "fix": "Available"
+    },
+    {
+      "package": "serve-static",
+      "severity": "low",
+      "title": "serve-static vulnerable to template injection that can lead to XSS",
+      "cve": "N/A",
+      "range": "<=1.16.0",
+      "fix": "Available"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "express",
+      "version": "4.17.1"
+    },
+    {
+      "name": "lodash",
+      "version": "4.17.19"
+    },
+    {
+      "name": "moment",
+      "version": "2.24.0"
+    },
+    {
+      "name": "nodemon",
+      "version": "1.19.0"
+    }
+  ],
+  "signatureVerification": {
+    "verified": [
+      {
+        "name": "lodash",
+        "version": "4.17.19"
+      },
+      {
+        "name": "moment",
+        "version": "2.24.0"
+      },
+      {
+        "name": "nodemon",
+        "version": "1.19.0"
+      }
+    ],
+    "unverified": [
+      {
+        "name": "moment",
+        "version": "2.24.0"
+      }
+    ],
+    "verificationPercentage": 75
+  },
+  "recommendations": {
+    "critical": "No critical issues",
+    "high": "Address 10 HIGH severity issues within 1 week",
+    "moderate": "Plan to fix 4 MODERATE issues within 1 month",
+    "nextSteps": [
+      "Review vulnerabilities",
+      "Update packages",
+      "Re-run scan",
+      "Enable CI/CD monitoring"
+    ]
+  }
+}

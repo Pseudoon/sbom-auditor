@@ -1,0 +1,1711 @@
+{
+  "projectId": "643185de-92fd-4cf8-8e22-1d1cee09b9a8",
+  "projectName": "My Project",
+  "timestamp": "2026-01-09T18:56:47.466Z",
+  "scanDuration": 149855,
+  "summary": {
+    "totalDependencies": 167,
+    "totalVulnerabilities": 0,
+    "riskScore": 0,
+    "severityBreakdown": {
+      "critical": 0,
+      "high": 0,
+      "moderate": 0,
+      "low": 0
+    },
+    "verifiedPackages": 98,
+    "unverifiedPackages": 69
+  },
+  "vulnerabilities": [],
+  "dependencies": [
+    {
+      "name": "express",
+      "version": "^4.18.2",
+      "type": "direct"
+    },
+    {
+      "name": "fastify",
+      "version": "^4.25.2",
+      "type": "direct"
+    },
+    {
+      "name": "koa",
+      "version": "^2.14.2",
+      "type": "direct"
+    },
+    {
+      "name": "hapi",
+      "version": "^21.3.7",
+      "type": "direct"
+    },
+    {
+      "name": "nest",
+      "version": "^10.2.10",
+      "type": "direct"
+    },
+    {
+      "name": "restify",
+      "version": "^11.1.0",
+      "type": "direct"
+    },
+    {
+      "name": "body-parser",
+      "version": "^1.20.2",
+      "type": "direct"
+    },
+    {
+      "name": "multer",
+      "version": "^1.4.5",
+      "type": "direct"
+    },
+    {
+      "name": "cors",
+      "version": "^2.8.5",
+      "type": "direct"
+    },
+    {
+      "name": "helmet",
+      "version": "^7.1.0",
+      "type": "direct"
+    },
+    {
+      "name": "compression",
+      "version": "^1.7.4",
+      "type": "direct"
+    },
+    {
+      "name": "morgan",
+      "version": "^1.10.0",
+      "type": "direct"
+    },
+    {
+      "name": "mongoose",
+      "version": "^8.0.3",
+      "type": "direct"
+    },
+    {
+      "name": "typeorm",
+      "version": "^0.3.19",
+      "type": "direct"
+    },
+    {
+      "name": "sequelize",
+      "version": "^6.35.2",
+      "type": "direct"
+    },
+    {
+      "name": "prisma",
+      "version": "^5.7.1",
+      "type": "direct"
+    },
+    {
+      "name": "knex",
+      "version": "^3.1.0",
+      "type": "direct"
+    },
+    {
+      "name": "pg",
+      "version": "^8.11.3",
+      "type": "direct"
+    },
+    {
+      "name": "mysql2",
+      "version": "^3.6.5",
+      "type": "direct"
+    },
+    {
+      "name": "mongodb",
+      "version": "^6.3.0",
+      "type": "direct"
+    },
+    {
+      "name": "redis",
+      "version": "^4.6.12",
+      "type": "direct"
+    },
+    {
+      "name": "jsonwebtoken",
+      "version": "^9.1.2",
+      "type": "direct"
+    },
+    {
+      "name": "bcryptjs",
+      "version": "^2.4.3",
+      "type": "direct"
+    },
+    {
+      "name": "passport",
+      "version": "^0.7.0",
+      "type": "direct"
+    },
+    {
+      "name": "passport-jwt",
+      "version": "^4.0.1",
+      "type": "direct"
+    },
+    {
+      "name": "argon2",
+      "version": "^0.31.2",
+      "type": "direct"
+    },
+    {
+      "name": "joi",
+      "version": "^17.11.0",
+      "type": "direct"
+    },
+    {
+      "name": "yup",
+      "version": "^1.3.3",
+      "type": "direct"
+    },
+    {
+      "name": "zod",
+      "version": "^3.22.4",
+      "type": "direct"
+    },
+    {
+      "name": "validator",
+      "version": "^13.11.0",
+      "type": "direct"
+    },
+    {
+      "name": "winston",
+      "version": "^3.11.0",
+      "type": "direct"
+    },
+    {
+      "name": "pino",
+      "version": "^8.17.2",
+      "type": "direct"
+    },
+    {
+      "name": "sentry",
+      "version": "^7.83.0",
+      "type": "direct"
+    },
+    {
+      "name": "jest",
+      "version": "^29.7.0",
+      "type": "direct"
+    },
+    {
+      "name": "mocha",
+      "version": "^10.2.0",
+      "type": "direct"
+    },
+    {
+      "name": "chai",
+      "version": "^4.3.10",
+      "type": "direct"
+    },
+    {
+      "name": "supertest",
+      "version": "^6.3.3",
+      "type": "direct"
+    },
+    {
+      "name": "lodash",
+      "version": "^4.17.21",
+      "type": "direct"
+    },
+    {
+      "name": "uuid",
+      "version": "^9.0.1",
+      "type": "direct"
+    },
+    {
+      "name": "moment",
+      "version": "^2.29.4",
+      "type": "direct"
+    },
+    {
+      "name": "axios",
+      "version": "^1.6.2",
+      "type": "direct"
+    },
+    {
+      "name": "dotenv",
+      "version": "^16.3.1",
+      "type": "direct"
+    },
+    {
+      "name": "bull",
+      "version": "^4.11.5",
+      "type": "direct"
+    },
+    {
+      "name": "bullmq",
+      "version": "^5.0.0",
+      "type": "direct"
+    },
+    {
+      "name": "agenda",
+      "version": "^4.3.0",
+      "type": "direct"
+    },
+    {
+      "name": "graphql",
+      "version": "^16.8.1",
+      "type": "direct"
+    },
+    {
+      "name": "apollo-server",
+      "version": "^4.10.1",
+      "type": "direct"
+    },
+    {
+      "name": "socket.io",
+      "version": "^4.7.2",
+      "type": "direct"
+    },
+    {
+      "name": "aws-sdk",
+      "version": "^2.1565.0",
+      "type": "direct"
+    },
+    {
+      "name": "sharp",
+      "version": "^0.33.0",
+      "type": "direct"
+    },
+    {
+      "name": "nodemailer",
+      "version": "^6.9.7",
+      "type": "direct"
+    },
+    {
+      "name": "eslint",
+      "version": "^8.54.0",
+      "type": "direct"
+    },
+    {
+      "name": "prettier",
+      "version": "^3.1.0",
+      "type": "direct"
+    },
+    {
+      "name": "express-rate-limit",
+      "version": "^7.1.5",
+      "type": "direct"
+    },
+    {
+      "name": "webpack",
+      "version": "^5.89.0",
+      "type": "direct"
+    },
+    {
+      "name": "vite",
+      "version": "^5.0.8",
+      "type": "direct"
+    },
+    {
+      "name": "request",
+      "version": "^2.88.2",
+      "type": "direct"
+    },
+    {
+      "name": "iconv-lite",
+      "version": "^0.4.24",
+      "type": "direct"
+    },
+    {
+      "name": "qs",
+      "version": "^6.11.0",
+      "type": "direct"
+    },
+    {
+      "name": "mime-types",
+      "version": "^2.1.35",
+      "type": "direct"
+    },
+    {
+      "name": "debug",
+      "version": "^4.3.4",
+      "type": "direct"
+    },
+    {
+      "name": "semver",
+      "version": "^7.5.4",
+      "type": "direct"
+    },
+    {
+      "name": "chalk",
+      "version": "^5.3.0",
+      "type": "direct"
+    },
+    {
+      "name": "commander",
+      "version": "^11.1.0",
+      "type": "direct"
+    },
+    {
+      "name": "yargs",
+      "version": "^17.7.2",
+      "type": "direct"
+    },
+    {
+      "name": "minimist",
+      "version": "^1.2.8",
+      "type": "direct"
+    },
+    {
+      "name": "rc",
+      "version": "^1.2.8",
+      "type": "direct"
+    },
+    {
+      "name": "config",
+      "version": "^3.3.9",
+      "type": "direct"
+    },
+    {
+      "name": "nconf",
+      "version": "^0.12.1",
+      "type": "direct"
+    },
+    {
+      "name": "class-validator",
+      "version": "^0.14.0",
+      "type": "direct"
+    },
+    {
+      "name": "express-validator",
+      "version": "^7.0.0",
+      "type": "direct"
+    },
+    {
+      "name": "bunyan",
+      "version": "^1.8.15",
+      "type": "direct"
+    },
+    {
+      "name": "swagger-ui-express",
+      "version": "^5.0.0",
+      "type": "direct"
+    },
+    {
+      "name": "swagger-jsdoc",
+      "version": "^6.0.8",
+      "type": "direct"
+    },
+    {
+      "name": "pm2",
+      "version": "^5.3.0",
+      "type": "direct"
+    },
+    {
+      "name": "nodemon",
+      "version": "^3.0.2",
+      "type": "direct"
+    },
+    {
+      "name": "typescript",
+      "version": "^5.3.3",
+      "type": "direct"
+    },
+    {
+      "name": "ts-node",
+      "version": "^10.9.2",
+      "type": "direct"
+    },
+    {
+      "name": "tslint",
+      "version": "^6.1.3",
+      "type": "direct"
+    },
+    {
+      "name": "@babel/core",
+      "version": "^7.23.6",
+      "type": "direct"
+    },
+    {
+      "name": "babel-loader",
+      "version": "^9.1.3",
+      "type": "direct"
+    },
+    {
+      "name": "ts-loader",
+      "version": "^9.5.1",
+      "type": "direct"
+    },
+    {
+      "name": "style-loader",
+      "version": "^3.3.3",
+      "type": "direct"
+    },
+    {
+      "name": "css-loader",
+      "version": "^6.8.1",
+      "type": "direct"
+    },
+    {
+      "name": "postcss",
+      "version": "^8.4.32",
+      "type": "direct"
+    },
+    {
+      "name": "sass",
+      "version": "^1.69.5",
+      "type": "direct"
+    },
+    {
+      "name": "less",
+      "version": "^4.2.0",
+      "type": "direct"
+    },
+    {
+      "name": "autoprefixer",
+      "version": "^10.4.16",
+      "type": "direct"
+    },
+    {
+      "name": "tailwindcss",
+      "version": "^3.3.6",
+      "type": "direct"
+    },
+    {
+      "name": "bootstrap",
+      "version": "^5.3.2",
+      "type": "direct"
+    },
+    {
+      "name": "@material-ui/core",
+      "version": "^5.14.14",
+      "type": "direct"
+    },
+    {
+      "name": "react",
+      "version": "^18.2.0",
+      "type": "direct"
+    },
+    {
+      "name": "vue",
+      "version": "^3.3.8",
+      "type": "direct"
+    },
+    {
+      "name": "@angular/core",
+      "version": "^17.0.8",
+      "type": "direct"
+    },
+    {
+      "name": "svelte",
+      "version": "^4.2.8",
+      "type": "direct"
+    },
+    {
+      "name": "next",
+      "version": "^14.1.0",
+      "type": "direct"
+    },
+    {
+      "name": "nuxt",
+      "version": "^3.8.2",
+      "type": "direct"
+    },
+    {
+      "name": "gatsby",
+      "version": "^5.12.13",
+      "type": "direct"
+    },
+    {
+      "name": "astro",
+      "version": "^4.1.1",
+      "type": "direct"
+    },
+    {
+      "name": "@11ty/eleventy",
+      "version": "^3.0.0",
+      "type": "direct"
+    },
+    {
+      "name": "docusaurus",
+      "version": "^3.0.1",
+      "type": "direct"
+    },
+    {
+      "name": "graphql-codegen",
+      "version": "^5.0.2",
+      "type": "direct"
+    },
+    {
+      "name": "protobufjs",
+      "version": "^7.2.5",
+      "type": "direct"
+    },
+    {
+      "name": "@grpc/grpc-js",
+      "version": "^1.9.11",
+      "type": "direct"
+    },
+    {
+      "name": "thrift",
+      "version": "^0.13.0",
+      "type": "direct"
+    },
+    {
+      "name": "avsc",
+      "version": "^1.11.1",
+      "type": "direct"
+    },
+    {
+      "name": "msgpack",
+      "version": "^1.0.3",
+      "type": "direct"
+    },
+    {
+      "name": "bson",
+      "version": "^5.5.0",
+      "type": "direct"
+    },
+    {
+      "name": "xml2js",
+      "version": "^0.6.2",
+      "type": "direct"
+    },
+    {
+      "name": "csv-parse",
+      "version": "^5.5.0",
+      "type": "direct"
+    },
+    {
+      "name": "papaparse",
+      "version": "^5.4.1",
+      "type": "direct"
+    },
+    {
+      "name": "fast-xml-parser",
+      "version": "^4.3.6",
+      "type": "direct"
+    },
+    {
+      "name": "yaml",
+      "version": "^2.3.4",
+      "type": "direct"
+    },
+    {
+      "name": "toml",
+      "version": "^3.0.0",
+      "type": "direct"
+    },
+    {
+      "name": "ini",
+      "version": "^4.1.1",
+      "type": "direct"
+    },
+    {
+      "name": "js-yaml",
+      "version": "^4.1.0",
+      "type": "direct"
+    },
+    {
+      "name": "esprima",
+      "version": "^4.0.1",
+      "type": "direct"
+    },
+    {
+      "name": "acorn",
+      "version": "^8.11.2",
+      "type": "direct"
+    },
+    {
+      "name": "recast",
+      "version": "^0.23.5",
+      "type": "direct"
+    },
+    {
+      "name": "jscodeshift",
+      "version": "^0.15.1",
+      "type": "direct"
+    },
+    {
+      "name": "stylint",
+      "version": "^1.0.0",
+      "type": "direct"
+    },
+    {
+      "name": "sass-lint",
+      "version": "^1.13.1",
+      "type": "direct"
+    },
+    {
+      "name": "stylelint",
+      "version": "^16.0.2",
+      "type": "direct"
+    },
+    {
+      "name": "htmlhint",
+      "version": "^1.1.4",
+      "type": "direct"
+    },
+    {
+      "name": "markdownlint",
+      "version": "^0.32.1",
+      "type": "direct"
+    },
+    {
+      "name": "alex",
+      "version": "^11.0.1",
+      "type": "direct"
+    },
+    {
+      "name": "remark",
+      "version": "^15.0.1",
+      "type": "direct"
+    },
+    {
+      "name": "rehype",
+      "version": "^13.0.0",
+      "type": "direct"
+    },
+    {
+      "name": "unified",
+      "version": "^10.1.2",
+      "type": "direct"
+    },
+    {
+      "name": "vfile",
+      "version": "^6.0.1",
+      "type": "direct"
+    },
+    {
+      "name": "vinyl",
+      "version": "^3.0.0",
+      "type": "direct"
+    },
+    {
+      "name": "through2",
+      "version": "^4.0.2",
+      "type": "direct"
+    },
+    {
+      "name": "gulp",
+      "version": "^4.0.2",
+      "type": "direct"
+    },
+    {
+      "name": "grunt",
+      "version": "^1.3.0",
+      "type": "direct"
+    },
+    {
+      "name": "broccoli",
+      "version": "^3.0.0",
+      "type": "direct"
+    },
+    {
+      "name": "rollup",
+      "version": "^4.5.0",
+      "type": "direct"
+    },
+    {
+      "name": "parcel",
+      "version": "^2.10.3",
+      "type": "direct"
+    },
+    {
+      "name": "esbuild",
+      "version": "^0.19.11",
+      "type": "direct"
+    },
+    {
+      "name": "swc",
+      "version": "^1.3.99",
+      "type": "direct"
+    },
+    {
+      "name": "snowpack",
+      "version": "^3.8.8",
+      "type": "direct"
+    },
+    {
+      "name": "ts-jest",
+      "version": "^29.1.1",
+      "type": "direct"
+    },
+    {
+      "name": "vitest",
+      "version": "^1.0.4",
+      "type": "direct"
+    },
+    {
+      "name": "jasmine",
+      "version": "^5.1.0",
+      "type": "direct"
+    },
+    {
+      "name": "qunit",
+      "version": "^2.20.0",
+      "type": "direct"
+    },
+    {
+      "name": "ava",
+      "version": "^6.0.1",
+      "type": "direct"
+    },
+    {
+      "name": "tap",
+      "version": "^18.6.1",
+      "type": "direct"
+    },
+    {
+      "name": "tape",
+      "version": "^5.7.0",
+      "type": "direct"
+    },
+    {
+      "name": "karma",
+      "version": "^6.4.2",
+      "type": "direct"
+    },
+    {
+      "name": "puppeteer",
+      "version": "^21.6.0",
+      "type": "direct"
+    },
+    {
+      "name": "playwright",
+      "version": "^1.40.1",
+      "type": "direct"
+    },
+    {
+      "name": "cypress",
+      "version": "^13.6.2",
+      "type": "direct"
+    },
+    {
+      "name": "webdriverio",
+      "version": "^8.27.0",
+      "type": "direct"
+    },
+    {
+      "name": "selenium-webdriver",
+      "version": "^4.15.2",
+      "type": "direct"
+    },
+    {
+      "name": "testcafe",
+      "version": "^1.20.0",
+      "type": "direct"
+    },
+    {
+      "name": "nightwatch",
+      "version": "^2.6.21",
+      "type": "direct"
+    },
+    {
+      "name": "codecov",
+      "version": "^3.8.3",
+      "type": "direct"
+    },
+    {
+      "name": "coveralls",
+      "version": "^3.1.1",
+      "type": "direct"
+    },
+    {
+      "name": "nyc",
+      "version": "^15.1.0",
+      "type": "direct"
+    },
+    {
+      "name": "sinon",
+      "version": "^17.0.1",
+      "type": "direct"
+    },
+    {
+      "name": "should",
+      "version": "^13.2.3",
+      "type": "direct"
+    },
+    {
+      "name": "expect",
+      "version": "^29.7.0",
+      "type": "direct"
+    },
+    {
+      "name": "assert-plus",
+      "version": "^1.0.0",
+      "type": "direct"
+    },
+    {
+      "name": "npm-check-updates",
+      "version": "^16.14.6",
+      "type": "dev"
+    },
+    {
+      "name": "npm-audit-fix",
+      "version": "^1.0.0",
+      "type": "dev"
+    },
+    {
+      "name": "lerna",
+      "version": "^8.1.2",
+      "type": "dev"
+    },
+    {
+      "name": "pnpm",
+      "version": "^8.12.1",
+      "type": "dev"
+    },
+    {
+      "name": "yarn",
+      "version": "^4.0.2",
+      "type": "dev"
+    }
+  ],
+  "signatureVerification": {
+    "verified": [
+      {
+        "name": "fastify",
+        "version": "^4.25.2",
+        "type": "direct"
+      },
+      {
+        "name": "koa",
+        "version": "^2.14.2",
+        "type": "direct"
+      },
+      {
+        "name": "nest",
+        "version": "^10.2.10",
+        "type": "direct"
+      },
+      {
+        "name": "restify",
+        "version": "^11.1.0",
+        "type": "direct"
+      },
+      {
+        "name": "body-parser",
+        "version": "^1.20.2",
+        "type": "direct"
+      },
+      {
+        "name": "multer",
+        "version": "^1.4.5",
+        "type": "direct"
+      },
+      {
+        "name": "mongoose",
+        "version": "^8.0.3",
+        "type": "direct"
+      },
+      {
+        "name": "prisma",
+        "version": "^5.7.1",
+        "type": "direct"
+      },
+      {
+        "name": "knex",
+        "version": "^3.1.0",
+        "type": "direct"
+      },
+      {
+        "name": "pg",
+        "version": "^8.11.3",
+        "type": "direct"
+      },
+      {
+        "name": "mysql2",
+        "version": "^3.6.5",
+        "type": "direct"
+      },
+      {
+        "name": "mongodb",
+        "version": "^6.3.0",
+        "type": "direct"
+      },
+      {
+        "name": "jsonwebtoken",
+        "version": "^9.1.2",
+        "type": "direct"
+      },
+      {
+        "name": "passport",
+        "version": "^0.7.0",
+        "type": "direct"
+      },
+      {
+        "name": "argon2",
+        "version": "^0.31.2",
+        "type": "direct"
+      },
+      {
+        "name": "yup",
+        "version": "^1.3.3",
+        "type": "direct"
+      },
+      {
+        "name": "winston",
+        "version": "^3.11.0",
+        "type": "direct"
+      },
+      {
+        "name": "jest",
+        "version": "^29.7.0",
+        "type": "direct"
+      },
+      {
+        "name": "chai",
+        "version": "^4.3.10",
+        "type": "direct"
+      },
+      {
+        "name": "supertest",
+        "version": "^6.3.3",
+        "type": "direct"
+      },
+      {
+        "name": "bull",
+        "version": "^4.11.5",
+        "type": "direct"
+      },
+      {
+        "name": "bullmq",
+        "version": "^5.0.0",
+        "type": "direct"
+      },
+      {
+        "name": "agenda",
+        "version": "^4.3.0",
+        "type": "direct"
+      },
+      {
+        "name": "graphql",
+        "version": "^16.8.1",
+        "type": "direct"
+      },
+      {
+        "name": "socket.io",
+        "version": "^4.7.2",
+        "type": "direct"
+      },
+      {
+        "name": "sharp",
+        "version": "^0.33.0",
+        "type": "direct"
+      },
+      {
+        "name": "nodemailer",
+        "version": "^6.9.7",
+        "type": "direct"
+      },
+      {
+        "name": "eslint",
+        "version": "^8.54.0",
+        "type": "direct"
+      },
+      {
+        "name": "express-rate-limit",
+        "version": "^7.1.5",
+        "type": "direct"
+      },
+      {
+        "name": "vite",
+        "version": "^5.0.8",
+        "type": "direct"
+      },
+      {
+        "name": "request",
+        "version": "^2.88.2",
+        "type": "direct"
+      },
+      {
+        "name": "qs",
+        "version": "^6.11.0",
+        "type": "direct"
+      },
+      {
+        "name": "debug",
+        "version": "^4.3.4",
+        "type": "direct"
+      },
+      {
+        "name": "commander",
+        "version": "^11.1.0",
+        "type": "direct"
+      },
+      {
+        "name": "minimist",
+        "version": "^1.2.8",
+        "type": "direct"
+      },
+      {
+        "name": "rc",
+        "version": "^1.2.8",
+        "type": "direct"
+      },
+      {
+        "name": "config",
+        "version": "^3.3.9",
+        "type": "direct"
+      },
+      {
+        "name": "nconf",
+        "version": "^0.12.1",
+        "type": "direct"
+      },
+      {
+        "name": "class-validator",
+        "version": "^0.14.0",
+        "type": "direct"
+      },
+      {
+        "name": "express-validator",
+        "version": "^7.0.0",
+        "type": "direct"
+      },
+      {
+        "name": "bunyan",
+        "version": "^1.8.15",
+        "type": "direct"
+      },
+      {
+        "name": "swagger-ui-express",
+        "version": "^5.0.0",
+        "type": "direct"
+      },
+      {
+        "name": "pm2",
+        "version": "^5.3.0",
+        "type": "direct"
+      },
+      {
+        "name": "nodemon",
+        "version": "^3.0.2",
+        "type": "direct"
+      },
+      {
+        "name": "typescript",
+        "version": "^5.3.3",
+        "type": "direct"
+      },
+      {
+        "name": "ts-node",
+        "version": "^10.9.2",
+        "type": "direct"
+      },
+      {
+        "name": "tslint",
+        "version": "^6.1.3",
+        "type": "direct"
+      },
+      {
+        "name": "babel-loader",
+        "version": "^9.1.3",
+        "type": "direct"
+      },
+      {
+        "name": "ts-loader",
+        "version": "^9.5.1",
+        "type": "direct"
+      },
+      {
+        "name": "style-loader",
+        "version": "^3.3.3",
+        "type": "direct"
+      },
+      {
+        "name": "css-loader",
+        "version": "^6.8.1",
+        "type": "direct"
+      },
+      {
+        "name": "postcss",
+        "version": "^8.4.32",
+        "type": "direct"
+      },
+      {
+        "name": "sass",
+        "version": "^1.69.5",
+        "type": "direct"
+      },
+      {
+        "name": "less",
+        "version": "^4.2.0",
+        "type": "direct"
+      },
+      {
+        "name": "tailwindcss",
+        "version": "^3.3.6",
+        "type": "direct"
+      },
+      {
+        "name": "bootstrap",
+        "version": "^5.3.2",
+        "type": "direct"
+      },
+      {
+        "name": "react",
+        "version": "^18.2.0",
+        "type": "direct"
+      },
+      {
+        "name": "svelte",
+        "version": "^4.2.8",
+        "type": "direct"
+      },
+      {
+        "name": "next",
+        "version": "^14.1.0",
+        "type": "direct"
+      },
+      {
+        "name": "nuxt",
+        "version": "^3.8.2",
+        "type": "direct"
+      },
+      {
+        "name": "gatsby",
+        "version": "^5.12.13",
+        "type": "direct"
+      },
+      {
+        "name": "docusaurus",
+        "version": "^3.0.1",
+        "type": "direct"
+      },
+      {
+        "name": "@grpc/grpc-js",
+        "version": "^1.9.11",
+        "type": "direct"
+      },
+      {
+        "name": "avsc",
+        "version": "^1.11.1",
+        "type": "direct"
+      },
+      {
+        "name": "xml2js",
+        "version": "^0.6.2",
+        "type": "direct"
+      },
+      {
+        "name": "csv-parse",
+        "version": "^5.5.0",
+        "type": "direct"
+      },
+      {
+        "name": "papaparse",
+        "version": "^5.4.1",
+        "type": "direct"
+      },
+      {
+        "name": "fast-xml-parser",
+        "version": "^4.3.6",
+        "type": "direct"
+      },
+      {
+        "name": "toml",
+        "version": "^3.0.0",
+        "type": "direct"
+      },
+      {
+        "name": "ini",
+        "version": "^4.1.1",
+        "type": "direct"
+      },
+      {
+        "name": "js-yaml",
+        "version": "^4.1.0",
+        "type": "direct"
+      },
+      {
+        "name": "esprima",
+        "version": "^4.0.1",
+        "type": "direct"
+      },
+      {
+        "name": "acorn",
+        "version": "^8.11.2",
+        "type": "direct"
+      },
+      {
+        "name": "recast",
+        "version": "^0.23.5",
+        "type": "direct"
+      },
+      {
+        "name": "jscodeshift",
+        "version": "^0.15.1",
+        "type": "direct"
+      },
+      {
+        "name": "sass-lint",
+        "version": "^1.13.1",
+        "type": "direct"
+      },
+      {
+        "name": "htmlhint",
+        "version": "^1.1.4",
+        "type": "direct"
+      },
+      {
+        "name": "markdownlint",
+        "version": "^0.32.1",
+        "type": "direct"
+      },
+      {
+        "name": "remark",
+        "version": "^15.0.1",
+        "type": "direct"
+      },
+      {
+        "name": "unified",
+        "version": "^10.1.2",
+        "type": "direct"
+      },
+      {
+        "name": "through2",
+        "version": "^4.0.2",
+        "type": "direct"
+      },
+      {
+        "name": "gulp",
+        "version": "^4.0.2",
+        "type": "direct"
+      },
+      {
+        "name": "grunt",
+        "version": "^1.3.0",
+        "type": "direct"
+      },
+      {
+        "name": "broccoli",
+        "version": "^3.0.0",
+        "type": "direct"
+      },
+      {
+        "name": "rollup",
+        "version": "^4.5.0",
+        "type": "direct"
+      },
+      {
+        "name": "esbuild",
+        "version": "^0.19.11",
+        "type": "direct"
+      },
+      {
+        "name": "swc",
+        "version": "^1.3.99",
+        "type": "direct"
+      },
+      {
+        "name": "vitest",
+        "version": "^1.0.4",
+        "type": "direct"
+      },
+      {
+        "name": "jasmine",
+        "version": "^5.1.0",
+        "type": "direct"
+      },
+      {
+        "name": "tap",
+        "version": "^18.6.1",
+        "type": "direct"
+      },
+      {
+        "name": "tape",
+        "version": "^5.7.0",
+        "type": "direct"
+      },
+      {
+        "name": "karma",
+        "version": "^6.4.2",
+        "type": "direct"
+      },
+      {
+        "name": "puppeteer",
+        "version": "^21.6.0",
+        "type": "direct"
+      },
+      {
+        "name": "webdriverio",
+        "version": "^8.27.0",
+        "type": "direct"
+      },
+      {
+        "name": "selenium-webdriver",
+        "version": "^4.15.2",
+        "type": "direct"
+      },
+      {
+        "name": "should",
+        "version": "^13.2.3",
+        "type": "direct"
+      },
+      {
+        "name": "expect",
+        "version": "^29.7.0",
+        "type": "direct"
+      },
+      {
+        "name": "assert-plus",
+        "version": "^1.0.0",
+        "type": "direct"
+      }
+    ],
+    "unverified": [
+      {
+        "name": "express",
+        "version": "^4.18.2",
+        "type": "direct"
+      },
+      {
+        "name": "hapi",
+        "version": "^21.3.7",
+        "type": "direct"
+      },
+      {
+        "name": "cors",
+        "version": "^2.8.5",
+        "type": "direct"
+      },
+      {
+        "name": "helmet",
+        "version": "^7.1.0",
+        "type": "direct"
+      },
+      {
+        "name": "compression",
+        "version": "^1.7.4",
+        "type": "direct"
+      },
+      {
+        "name": "morgan",
+        "version": "^1.10.0",
+        "type": "direct"
+      },
+      {
+        "name": "typeorm",
+        "version": "^0.3.19",
+        "type": "direct"
+      },
+      {
+        "name": "sequelize",
+        "version": "^6.35.2",
+        "type": "direct"
+      },
+      {
+        "name": "redis",
+        "version": "^4.6.12",
+        "type": "direct"
+      },
+      {
+        "name": "bcryptjs",
+        "version": "^2.4.3",
+        "type": "direct"
+      },
+      {
+        "name": "passport-jwt",
+        "version": "^4.0.1",
+        "type": "direct"
+      },
+      {
+        "name": "joi",
+        "version": "^17.11.0",
+        "type": "direct"
+      },
+      {
+        "name": "zod",
+        "version": "^3.22.4",
+        "type": "direct"
+      },
+      {
+        "name": "validator",
+        "version": "^13.11.0",
+        "type": "direct"
+      },
+      {
+        "name": "pino",
+        "version": "^8.17.2",
+        "type": "direct"
+      },
+      {
+        "name": "sentry",
+        "version": "^7.83.0",
+        "type": "direct"
+      },
+      {
+        "name": "mocha",
+        "version": "^10.2.0",
+        "type": "direct"
+      },
+      {
+        "name": "lodash",
+        "version": "^4.17.21",
+        "type": "direct"
+      },
+      {
+        "name": "uuid",
+        "version": "^9.0.1",
+        "type": "direct"
+      },
+      {
+        "name": "moment",
+        "version": "^2.29.4",
+        "type": "direct"
+      },
+      {
+        "name": "axios",
+        "version": "^1.6.2",
+        "type": "direct"
+      },
+      {
+        "name": "dotenv",
+        "version": "^16.3.1",
+        "type": "direct"
+      },
+      {
+        "name": "apollo-server",
+        "version": "^4.10.1",
+        "type": "direct"
+      },
+      {
+        "name": "aws-sdk",
+        "version": "^2.1565.0",
+        "type": "direct"
+      },
+      {
+        "name": "prettier",
+        "version": "^3.1.0",
+        "type": "direct"
+      },
+      {
+        "name": "webpack",
+        "version": "^5.89.0",
+        "type": "direct"
+      },
+      {
+        "name": "iconv-lite",
+        "version": "^0.4.24",
+        "type": "direct"
+      },
+      {
+        "name": "mime-types",
+        "version": "^2.1.35",
+        "type": "direct"
+      },
+      {
+        "name": "semver",
+        "version": "^7.5.4",
+        "type": "direct"
+      },
+      {
+        "name": "chalk",
+        "version": "^5.3.0",
+        "type": "direct"
+      },
+      {
+        "name": "yargs",
+        "version": "^17.7.2",
+        "type": "direct"
+      },
+      {
+        "name": "swagger-jsdoc",
+        "version": "^6.0.8",
+        "type": "direct"
+      },
+      {
+        "name": "@babel/core",
+        "version": "^7.23.6",
+        "type": "direct"
+      },
+      {
+        "name": "autoprefixer",
+        "version": "^10.4.16",
+        "type": "direct"
+      },
+      {
+        "name": "@material-ui/core",
+        "version": "^5.14.14",
+        "type": "direct"
+      },
+      {
+        "name": "vue",
+        "version": "^3.3.8",
+        "type": "direct"
+      },
+      {
+        "name": "@angular/core",
+        "version": "^17.0.8",
+        "type": "direct"
+      },
+      {
+        "name": "astro",
+        "version": "^4.1.1",
+        "type": "direct"
+      },
+      {
+        "name": "@11ty/eleventy",
+        "version": "^3.0.0",
+        "type": "direct"
+      },
+      {
+        "name": "graphql-codegen",
+        "version": "^5.0.2",
+        "type": "direct"
+      },
+      {
+        "name": "protobufjs",
+        "version": "^7.2.5",
+        "type": "direct"
+      },
+      {
+        "name": "thrift",
+        "version": "^0.13.0",
+        "type": "direct"
+      },
+      {
+        "name": "msgpack",
+        "version": "^1.0.3",
+        "type": "direct"
+      },
+      {
+        "name": "bson",
+        "version": "^5.5.0",
+        "type": "direct"
+      },
+      {
+        "name": "yaml",
+        "version": "^2.3.4",
+        "type": "direct"
+      },
+      {
+        "name": "stylint",
+        "version": "^1.0.0",
+        "type": "direct"
+      },
+      {
+        "name": "stylelint",
+        "version": "^16.0.2",
+        "type": "direct"
+      },
+      {
+        "name": "alex",
+        "version": "^11.0.1",
+        "type": "direct"
+      },
+      {
+        "name": "rehype",
+        "version": "^13.0.0",
+        "type": "direct"
+      },
+      {
+        "name": "vfile",
+        "version": "^6.0.1",
+        "type": "direct"
+      },
+      {
+        "name": "vinyl",
+        "version": "^3.0.0",
+        "type": "direct"
+      },
+      {
+        "name": "parcel",
+        "version": "^2.10.3",
+        "type": "direct"
+      },
+      {
+        "name": "snowpack",
+        "version": "^3.8.8",
+        "type": "direct"
+      },
+      {
+        "name": "ts-jest",
+        "version": "^29.1.1",
+        "type": "direct"
+      },
+      {
+        "name": "qunit",
+        "version": "^2.20.0",
+        "type": "direct"
+      },
+      {
+        "name": "ava",
+        "version": "^6.0.1",
+        "type": "direct"
+      },
+      {
+        "name": "playwright",
+        "version": "^1.40.1",
+        "type": "direct"
+      },
+      {
+        "name": "cypress",
+        "version": "^13.6.2",
+        "type": "direct"
+      },
+      {
+        "name": "testcafe",
+        "version": "^1.20.0",
+        "type": "direct"
+      },
+      {
+        "name": "nightwatch",
+        "version": "^2.6.21",
+        "type": "direct"
+      },
+      {
+        "name": "codecov",
+        "version": "^3.8.3",
+        "type": "direct"
+      },
+      {
+        "name": "coveralls",
+        "version": "^3.1.1",
+        "type": "direct"
+      },
+      {
+        "name": "nyc",
+        "version": "^15.1.0",
+        "type": "direct"
+      },
+      {
+        "name": "sinon",
+        "version": "^17.0.1",
+        "type": "direct"
+      },
+      {
+        "name": "npm-check-updates",
+        "version": "^16.14.6",
+        "type": "dev"
+      },
+      {
+        "name": "npm-audit-fix",
+        "version": "^1.0.0",
+        "type": "dev"
+      },
+      {
+        "name": "lerna",
+        "version": "^8.1.2",
+        "type": "dev"
+      },
+      {
+        "name": "pnpm",
+        "version": "^8.12.1",
+        "type": "dev"
+      },
+      {
+        "name": "yarn",
+        "version": "^4.0.2",
+        "type": "dev"
+      }
+    ],
+    "verificationPercentage": 59
+  },
+  "recommendations": {
+    "critical": "No critical vulnerabilities",
+    "high": "No high severity vulnerabilities",
+    "moderate": "No moderate vulnerabilities",
+    "nextSteps": [
+      "Review all vulnerabilities in detail",
+      "Update vulnerable packages to patched versions",
+      "Run scan again after updates to verify fixes",
+      "Enable continuous monitoring on CI/CD pipeline",
+      "Set up automated dependency scanning"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "projectId": "d9f61b6e-53f5-41e8-a2cd-a2050c8b7d8b",
+  "projectName": "My Project",
+  "timestamp": "2026-01-09T18:58:21.437Z",
+  "scanDuration": 3181,
+  "summary": {
+    "totalDependencies": 0,
+    "totalVulnerabilities": 0,
+    "riskScore": 0,
+    "severityBreakdown": {
+      "critical": 0,
+      "high": 0,
+      "moderate": 0,
+      "low": 0
+    },
+    "verifiedPackages": 0,
+    "unverifiedPackages": 0
+  },
+  "vulnerabilities": [],
+  "dependencies": [],
+  "signatureVerification": {
+    "verified": [],
+    "unverified": [],
+    "verificationPercentage": 0
+  },
+  "recommendations": {
+    "critical": "No critical issues",
+    "high": "No high severity issues",
+    "moderate": "No moderate issues",
+    "nextSteps": [
+      "Review vulnerabilities",
+      "Update packages",
+      "Re-run scan",
+      "Enable CI/CD monitoring"
+    ]
+  }
+}

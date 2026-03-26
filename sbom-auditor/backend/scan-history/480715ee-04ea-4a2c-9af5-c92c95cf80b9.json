@@ -1,0 +1,25 @@
+{
+  "projectId": "480715ee-04ea-4a2c-9af5-c92c95cf80b9",
+  "projectName": "My Project",
+  "summary": {
+    "totalVulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "moderate": 0,
+    "low": 0,
+    "riskScore": 0
+  },
+  "vulnerabilities": [],
+  "dependencies": [],
+  "signatures": {
+    "status": "none",
+    "message": "Verified via npm registry metadata; Sigstore integration planned as future work.",
+    "totalPackages": 0,
+    "verifiedCount": 0,
+    "unverifiedCount": 0,
+    "verified": [],
+    "unverified": []
+  },
+  "scannedAt": "2026-01-09T20:03:30.695Z",
+  "durationMs": 180890
+}

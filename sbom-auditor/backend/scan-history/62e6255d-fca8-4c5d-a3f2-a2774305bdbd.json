@@ -1,0 +1,575 @@
+{
+  "projectId": "62e6255d-fca8-4c5d-a3f2-a2774305bdbd",
+  "projectName": "My Project",
+  "summary": {
+    "totalVulnerabilities": 41,
+    "critical": 0,
+    "high": 28,
+    "moderate": 8,
+    "low": 5,
+    "riskScore": 64
+  },
+  "vulnerabilities": [
+    {
+      "id": "anymatch-0",
+      "name": "anymatch",
+      "title": "Issue 1 in anymatch",
+      "description": "Issue 1 in anymatch",
+      "severity": "moderate",
+      "cvssScore": 0,
+      "package": "anymatch",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "body-parser-0",
+      "name": "body-parser",
+      "title": "body-parser vulnerable to denial of service when url encoding is enabled",
+      "description": "body-parser vulnerable to denial of service when url encoding is enabled (see: https://github.com/advisories/GHSA-qwcr-r2fm-qrc7)",
+      "severity": "high",
+      "cvssScore": 7.5,
+      "package": "body-parser",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "body-parser-1",
+      "name": "body-parser",
+      "title": "Issue 2 in body-parser",
+      "description": "Issue 2 in body-parser",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "body-parser",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "boxen-0",
+      "name": "boxen",
+      "title": "Issue 1 in boxen",
+      "description": "Issue 1 in boxen",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "boxen",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "braces-0",
+      "name": "braces",
+      "title": "Uncontrolled resource consumption in braces",
+      "description": "Uncontrolled resource consumption in braces (see: https://github.com/advisories/GHSA-grv7-fg5c-xmjg)",
+      "severity": "high",
+      "cvssScore": 7.5,
+      "package": "braces",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "chokidar-0",
+      "name": "chokidar",
+      "title": "Issue 1 in chokidar",
+      "description": "Issue 1 in chokidar",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "chokidar",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "chokidar-1",
+      "name": "chokidar",
+      "title": "Issue 2 in chokidar",
+      "description": "Issue 2 in chokidar",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "chokidar",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "chokidar-2",
+      "name": "chokidar",
+      "title": "Issue 3 in chokidar",
+      "description": "Issue 3 in chokidar",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "chokidar",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "cookie-0",
+      "name": "cookie",
+      "title": "cookie accepts cookie name, path, and domain with out of bounds characters",
+      "description": "cookie accepts cookie name, path, and domain with out of bounds characters (see: https://github.com/advisories/GHSA-pxg6-pf52-xh8x)",
+      "severity": "low",
+      "cvssScore": 0,
+      "package": "cookie",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "cross-spawn-0",
+      "name": "cross-spawn",
+      "title": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+      "description": "Regular Expression Denial of Service (ReDoS) in cross-spawn (see: https://github.com/advisories/GHSA-3xgq-45jj-v275)",
+      "severity": "high",
+      "cvssScore": 7.5,
+      "package": "cross-spawn",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "execa-0",
+      "name": "execa",
+      "title": "Issue 1 in execa",
+      "description": "Issue 1 in execa",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "execa",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "express-0",
+      "name": "express",
+      "title": "express vulnerable to XSS via response.redirect()",
+      "description": "express vulnerable to XSS via response.redirect() (see: https://github.com/advisories/GHSA-qw6h-vgh9-j6wx)",
+      "severity": "low",
+      "cvssScore": 5,
+      "package": "express",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "express-1",
+      "name": "express",
+      "title": "Express.js Open Redirect in malformed URLs",
+      "description": "Express.js Open Redirect in malformed URLs (see: https://github.com/advisories/GHSA-rv95-896h-c2vc)",
+      "severity": "moderate",
+      "cvssScore": 6.1,
+      "package": "express",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "express-2",
+      "name": "express",
+      "title": "Issue 3 in express",
+      "description": "Issue 3 in express",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "express",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "express-3",
+      "name": "express",
+      "title": "Issue 4 in express",
+      "description": "Issue 4 in express",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "express",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "express-4",
+      "name": "express",
+      "title": "Issue 5 in express",
+      "description": "Issue 5 in express",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "express",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "express-5",
+      "name": "express",
+      "title": "Issue 6 in express",
+      "description": "Issue 6 in express",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "express",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "express-6",
+      "name": "express",
+      "title": "Issue 7 in express",
+      "description": "Issue 7 in express",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "express",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "express-7",
+      "name": "express",
+      "title": "Issue 8 in express",
+      "description": "Issue 8 in express",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "express",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "got-0",
+      "name": "got",
+      "title": "Got allows a redirect to a UNIX socket",
+      "description": "Got allows a redirect to a UNIX socket (see: https://github.com/advisories/GHSA-pfrx-2q88-qq97)",
+      "severity": "moderate",
+      "cvssScore": 5.3,
+      "package": "got",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "latest-version-0",
+      "name": "latest-version",
+      "title": "Issue 1 in latest-version",
+      "description": "Issue 1 in latest-version",
+      "severity": "moderate",
+      "cvssScore": 0,
+      "package": "latest-version",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "lodash-0",
+      "name": "lodash",
+      "title": "Command Injection in lodash",
+      "description": "Command Injection in lodash (see: https://github.com/advisories/GHSA-35jh-r3h4-6jhm)",
+      "severity": "high",
+      "cvssScore": 7.2,
+      "package": "lodash",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "lodash-1",
+      "name": "lodash",
+      "title": "Regular Expression Denial of Service (ReDoS) in lodash",
+      "description": "Regular Expression Denial of Service (ReDoS) in lodash (see: https://github.com/advisories/GHSA-29mw-wpgm-hmr9)",
+      "severity": "moderate",
+      "cvssScore": 5.3,
+      "package": "lodash",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "micromatch-0",
+      "name": "micromatch",
+      "title": "Regular Expression Denial of Service (ReDoS) in micromatch",
+      "description": "Regular Expression Denial of Service (ReDoS) in micromatch (see: https://github.com/advisories/GHSA-952p-6rrq-rcjv)",
+      "severity": "moderate",
+      "cvssScore": 5.3,
+      "package": "micromatch",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "micromatch-1",
+      "name": "micromatch",
+      "title": "Issue 2 in micromatch",
+      "description": "Issue 2 in micromatch",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "micromatch",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "moment-0",
+      "name": "moment",
+      "title": "Path Traversal: 'dir/../../filename' in moment.locale",
+      "description": "Path Traversal: 'dir/../../filename' in moment.locale (see: https://github.com/advisories/GHSA-8hfj-j24r-96c4)",
+      "severity": "high",
+      "cvssScore": 7.5,
+      "package": "moment",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "moment-1",
+      "name": "moment",
+      "title": "Moment.js vulnerable to Inefficient Regular Expression Complexity",
+      "description": "Moment.js vulnerable to Inefficient Regular Expression Complexity (see: https://github.com/advisories/GHSA-wc69-rhjr-hc9g)",
+      "severity": "high",
+      "cvssScore": 7.5,
+      "package": "moment",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "nodemon-0",
+      "name": "nodemon",
+      "title": "Issue 1 in nodemon",
+      "description": "Issue 1 in nodemon",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "nodemon",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "nodemon-1",
+      "name": "nodemon",
+      "title": "Issue 2 in nodemon",
+      "description": "Issue 2 in nodemon",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "nodemon",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "package-json-0",
+      "name": "package-json",
+      "title": "Issue 1 in package-json",
+      "description": "Issue 1 in package-json",
+      "severity": "moderate",
+      "cvssScore": 0,
+      "package": "package-json",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "path-to-regexp-0",
+      "name": "path-to-regexp",
+      "title": "path-to-regexp outputs backtracking regular expressions",
+      "description": "path-to-regexp outputs backtracking regular expressions (see: https://github.com/advisories/GHSA-9wv6-86v2-598j)",
+      "severity": "high",
+      "cvssScore": 7.5,
+      "package": "path-to-regexp",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "path-to-regexp-1",
+      "name": "path-to-regexp",
+      "title": "path-to-regexp contains a ReDoS",
+      "description": "path-to-regexp contains a ReDoS (see: https://github.com/advisories/GHSA-rhx6-c78j-4q9w)",
+      "severity": "high",
+      "cvssScore": 7.5,
+      "package": "path-to-regexp",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "qs-0",
+      "name": "qs",
+      "title": "qs vulnerable to Prototype Pollution",
+      "description": "qs vulnerable to Prototype Pollution (see: https://github.com/advisories/GHSA-hrpp-h998-j3pp)",
+      "severity": "high",
+      "cvssScore": 7.5,
+      "package": "qs",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "qs-1",
+      "name": "qs",
+      "title": "qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion",
+      "description": "qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion (see: https://github.com/advisories/GHSA-6rw7-vpxm-498p)",
+      "severity": "high",
+      "cvssScore": 7.5,
+      "package": "qs",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "readdirp-0",
+      "name": "readdirp",
+      "title": "Issue 1 in readdirp",
+      "description": "Issue 1 in readdirp",
+      "severity": "moderate",
+      "cvssScore": 0,
+      "package": "readdirp",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "send-0",
+      "name": "send",
+      "title": "send vulnerable to template injection that can lead to XSS",
+      "description": "send vulnerable to template injection that can lead to XSS (see: https://github.com/advisories/GHSA-m6fv-jmcg-4jfg)",
+      "severity": "low",
+      "cvssScore": 5,
+      "package": "send",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "serve-static-0",
+      "name": "serve-static",
+      "title": "serve-static vulnerable to template injection that can lead to XSS",
+      "description": "serve-static vulnerable to template injection that can lead to XSS (see: https://github.com/advisories/GHSA-cm22-4g7w-348p)",
+      "severity": "low",
+      "cvssScore": 5,
+      "package": "serve-static",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "serve-static-1",
+      "name": "serve-static",
+      "title": "Issue 2 in serve-static",
+      "description": "Issue 2 in serve-static",
+      "severity": "low",
+      "cvssScore": 0,
+      "package": "serve-static",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "term-size-0",
+      "name": "term-size",
+      "title": "Issue 1 in term-size",
+      "description": "Issue 1 in term-size",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "term-size",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "update-notifier-0",
+      "name": "update-notifier",
+      "title": "Issue 1 in update-notifier",
+      "description": "Issue 1 in update-notifier",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "update-notifier",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "update-notifier-1",
+      "name": "update-notifier",
+      "title": "Issue 2 in update-notifier",
+      "description": "Issue 2 in update-notifier",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "update-notifier",
+      "fixAvailable": "yes"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "anymatch",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 1
+    },
+    {
+      "name": "body-parser",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 2
+    },
+    {
+      "name": "boxen",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 1
+    },
+    {
+      "name": "braces",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 1
+    },
+    {
+      "name": "chokidar",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 3
+    },
+    {
+      "name": "cookie",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 1
+    },
+    {
+      "name": "cross-spawn",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 1
+    },
+    {
+      "name": "execa",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 1
+    },
+    {
+      "name": "express",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 8
+    },
+    {
+      "name": "got",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 1
+    },
+    {
+      "name": "latest-version",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 1
+    },
+    {
+      "name": "lodash",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 2
+    },
+    {
+      "name": "micromatch",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 2
+    },
+    {
+      "name": "moment",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 2
+    },
+    {
+      "name": "nodemon",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 2
+    },
+    {
+      "name": "package-json",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 1
+    },
+    {
+      "name": "path-to-regexp",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 2
+    },
+    {
+      "name": "qs",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 2
+    },
+    {
+      "name": "readdirp",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 1
+    },
+    {
+      "name": "send",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 1
+    },
+    {
+      "name": "serve-static",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 2
+    },
+    {
+      "name": "term-size",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 1
+    },
+    {
+      "name": "update-notifier",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 2
+    }
+  ],
+  "signatures": {
+    "status": "partial",
+    "message": "Verified via npm registry metadata; Sigstore integration planned as future work.",
+    "totalPackages": 262,
+    "verifiedCount": 183,
+    "unverifiedCount": 79,
+    "verified": [],
+    "unverified": []
+  },
+  "scannedAt": "2026-01-09T20:08:11.766Z",
+  "durationMs": 14167
+}

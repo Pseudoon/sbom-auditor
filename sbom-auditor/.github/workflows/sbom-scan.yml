@@ -1,0 +1,40 @@
+name: Advanced SBOM Audit CI/CD
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  sbom-audit:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Install dependencies
+        run: cd backend && npm install
+      
+      - name: Run npm audit
+        run: npm audit --json > audit-results.json || true
+      
+      - name: Check for critical vulnerabilities
+        run: |
+          CRITICAL=$(jq '.metadata.vulnerabilities.critical' audit-results.json || echo 0)
+          if [ "$CRITICAL" -gt 0 ]; then
+            echo "⚠️ CRITICAL vulnerabilities found: $CRITICAL"
+          fi
+      
+      - name: Upload audit results
+        uses: actions/upload-artifact@v3
+        with:
+          name: audit-results
+          path: audit-results.json

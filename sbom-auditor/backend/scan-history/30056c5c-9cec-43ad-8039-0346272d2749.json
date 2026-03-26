@@ -1,0 +1,349 @@
+{
+  "projectId": "30056c5c-9cec-43ad-8039-0346272d2749",
+  "projectName": "My Project",
+  "summary": {
+    "totalVulnerabilities": 25,
+    "critical": 1,
+    "high": 14,
+    "moderate": 2,
+    "low": 8,
+    "riskScore": 58
+  },
+  "vulnerabilities": [
+    {
+      "id": "axios-0",
+      "name": "axios",
+      "title": "Axios Cross-Site Request Forgery Vulnerability",
+      "description": "Axios Cross-Site Request Forgery Vulnerability (see: https://github.com/advisories/GHSA-wf5p-g6vw-rhxx)",
+      "severity": "moderate",
+      "cvssScore": 6.5,
+      "package": "axios",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "axios-1",
+      "name": "axios",
+      "title": "Axios is vulnerable to DoS attack through lack of data size check",
+      "description": "Axios is vulnerable to DoS attack through lack of data size check (see: https://github.com/advisories/GHSA-4hjh-wcwx-xvwj)",
+      "severity": "high",
+      "cvssScore": 7.5,
+      "package": "axios",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "axios-2",
+      "name": "axios",
+      "title": "axios Requests Vulnerable To Possible SSRF and Credential Leakage via Absolute URL",
+      "description": "axios Requests Vulnerable To Possible SSRF and Credential Leakage via Absolute URL (see: https://github.com/advisories/GHSA-jr5f-v2jv-69x6)",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "axios",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "body-parser-0",
+      "name": "body-parser",
+      "title": "body-parser vulnerable to denial of service when url encoding is enabled",
+      "description": "body-parser vulnerable to denial of service when url encoding is enabled (see: https://github.com/advisories/GHSA-qwcr-r2fm-qrc7)",
+      "severity": "high",
+      "cvssScore": 7.5,
+      "package": "body-parser",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "body-parser-1",
+      "name": "body-parser",
+      "title": "Issue 2 in body-parser",
+      "description": "Issue 2 in body-parser",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "body-parser",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "cookie-0",
+      "name": "cookie",
+      "title": "cookie accepts cookie name, path, and domain with out of bounds characters",
+      "description": "cookie accepts cookie name, path, and domain with out of bounds characters (see: https://github.com/advisories/GHSA-pxg6-pf52-xh8x)",
+      "severity": "low",
+      "cvssScore": 0,
+      "package": "cookie",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "cookie-parser-0",
+      "name": "cookie-parser",
+      "title": "Issue 1 in cookie-parser",
+      "description": "Issue 1 in cookie-parser",
+      "severity": "low",
+      "cvssScore": 0,
+      "package": "cookie-parser",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "express-0",
+      "name": "express",
+      "title": "express vulnerable to XSS via response.redirect()",
+      "description": "express vulnerable to XSS via response.redirect() (see: https://github.com/advisories/GHSA-qw6h-vgh9-j6wx)",
+      "severity": "low",
+      "cvssScore": 5,
+      "package": "express",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "express-1",
+      "name": "express",
+      "title": "Express.js Open Redirect in malformed URLs",
+      "description": "Express.js Open Redirect in malformed URLs (see: https://github.com/advisories/GHSA-rv95-896h-c2vc)",
+      "severity": "moderate",
+      "cvssScore": 6.1,
+      "package": "express",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "express-2",
+      "name": "express",
+      "title": "Issue 3 in express",
+      "description": "Issue 3 in express",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "express",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "express-3",
+      "name": "express",
+      "title": "Issue 4 in express",
+      "description": "Issue 4 in express",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "express",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "express-4",
+      "name": "express",
+      "title": "Issue 5 in express",
+      "description": "Issue 5 in express",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "express",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "express-5",
+      "name": "express",
+      "title": "Issue 6 in express",
+      "description": "Issue 6 in express",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "express",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "express-6",
+      "name": "express",
+      "title": "Issue 7 in express",
+      "description": "Issue 7 in express",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "express",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "express-7",
+      "name": "express",
+      "title": "Issue 8 in express",
+      "description": "Issue 8 in express",
+      "severity": "high",
+      "cvssScore": 0,
+      "package": "express",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "mongoose-0",
+      "name": "mongoose",
+      "title": "Mongoose search injection vulnerability",
+      "description": "Mongoose search injection vulnerability (see: https://github.com/advisories/GHSA-m7xq-9374-9rvx)",
+      "severity": "high",
+      "cvssScore": 9.8,
+      "package": "mongoose",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "mongoose-1",
+      "name": "mongoose",
+      "title": "Mongoose search injection vulnerability",
+      "description": "Mongoose search injection vulnerability (see: https://github.com/advisories/GHSA-vg7j-7cwx-8wgw)",
+      "severity": "critical",
+      "cvssScore": 9.1,
+      "package": "mongoose",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "morgan-0",
+      "name": "morgan",
+      "title": "Issue 1 in morgan",
+      "description": "Issue 1 in morgan",
+      "severity": "low",
+      "cvssScore": 0,
+      "package": "morgan",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "on-headers-0",
+      "name": "on-headers",
+      "title": "on-headers is vulnerable to http response header manipulation",
+      "description": "on-headers is vulnerable to http response header manipulation (see: https://github.com/advisories/GHSA-76c9-3jph-rj3q)",
+      "severity": "low",
+      "cvssScore": 3.4,
+      "package": "on-headers",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "path-to-regexp-0",
+      "name": "path-to-regexp",
+      "title": "path-to-regexp outputs backtracking regular expressions",
+      "description": "path-to-regexp outputs backtracking regular expressions (see: https://github.com/advisories/GHSA-9wv6-86v2-598j)",
+      "severity": "high",
+      "cvssScore": 7.5,
+      "package": "path-to-regexp",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "path-to-regexp-1",
+      "name": "path-to-regexp",
+      "title": "path-to-regexp contains a ReDoS",
+      "description": "path-to-regexp contains a ReDoS (see: https://github.com/advisories/GHSA-rhx6-c78j-4q9w)",
+      "severity": "high",
+      "cvssScore": 7.5,
+      "package": "path-to-regexp",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "qs-0",
+      "name": "qs",
+      "title": "qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion",
+      "description": "qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion (see: https://github.com/advisories/GHSA-6rw7-vpxm-498p)",
+      "severity": "high",
+      "cvssScore": 7.5,
+      "package": "qs",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "send-0",
+      "name": "send",
+      "title": "send vulnerable to template injection that can lead to XSS",
+      "description": "send vulnerable to template injection that can lead to XSS (see: https://github.com/advisories/GHSA-m6fv-jmcg-4jfg)",
+      "severity": "low",
+      "cvssScore": 5,
+      "package": "send",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "serve-static-0",
+      "name": "serve-static",
+      "title": "serve-static vulnerable to template injection that can lead to XSS",
+      "description": "serve-static vulnerable to template injection that can lead to XSS (see: https://github.com/advisories/GHSA-cm22-4g7w-348p)",
+      "severity": "low",
+      "cvssScore": 5,
+      "package": "serve-static",
+      "fixAvailable": "yes"
+    },
+    {
+      "id": "serve-static-1",
+      "name": "serve-static",
+      "title": "Issue 2 in serve-static",
+      "description": "Issue 2 in serve-static",
+      "severity": "low",
+      "cvssScore": 0,
+      "package": "serve-static",
+      "fixAvailable": "yes"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "axios",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 3
+    },
+    {
+      "name": "body-parser",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 2
+    },
+    {
+      "name": "cookie",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 1
+    },
+    {
+      "name": "cookie-parser",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 1
+    },
+    {
+      "name": "express",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 8
+    },
+    {
+      "name": "mongoose",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 2
+    },
+    {
+      "name": "morgan",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 1
+    },
+    {
+      "name": "on-headers",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 1
+    },
+    {
+      "name": "path-to-regexp",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 2
+    },
+    {
+      "name": "qs",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 1
+    },
+    {
+      "name": "send",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 1
+    },
+    {
+      "name": "serve-static",
+      "version": "unknown",
+      "type": "prod",
+      "vulnerabilities": 2
+    }
+  ],
+  "signatures": {
+    "status": "partial",
+    "message": "Verified via npm registry metadata; Sigstore integration planned as future work.",
+    "totalPackages": 519,
+    "verifiedCount": 363,
+    "unverifiedCount": 156,
+    "verified": [],
+    "unverified": []
+  },
+  "scannedAt": "2026-01-09T20:11:50.683Z",
+  "durationMs": 55750
+}
